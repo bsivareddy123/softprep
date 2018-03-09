@@ -1,0 +1,305 @@
+.button{
+    padding: 30px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: deepskyblue !important;
+    border-color: deepskyblue !important;
+}
+h1 {
+    color: #57acec;
+    margin-top: 24px; 
+    text-align: center;   
+}    
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.previous{
+    background-color: #f1f1f1f1;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.next{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+textarea {
+    overflow: auto;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+}
+
+
+  .calc-card {
+    width: 280px;
+    padding: 0;
+  }
+  
+  .buttons {
+    margin: 0 auto;
+  }
+  
+  .row {
+    margin: 4px;
+  }
+  
+  .calc-button {
+    height: 37px !important;
+    font-size: 21px;
+    width: 54px;
+    background-color: lightpink;
+    border: 1px solid black;
+  }
+  
+  .calc-button-long {
+    width: 113px;
+  }
+  
+  .mdl-textfield {
+    width: 85% !important;
+    padding: 0px;
+  }
+  
+  .mdl-textfield input[type="text"] {
+    text-align: right;
+    font-size: 3em;
+    padding: 0px;
+    width: 98%;
+  }
+  
+  .mdl-textfield input[type="text"]:disabled {
+    color: #000;
+  }
+
+  .row[_ngcontent-iru-22] {
+    margin: 6px !important;
+}
+.mdl-textfield[_ngcontent-rsf-22] input[type="text"][_ngcontent-rsf-22]:disabled {
+    color: #000;
+    width: 98% !important;
+}
+.mdl-button--accent.mdl-button--accent {
+    background-color: rgb(255,64,129);
+    color: white;
+    border: 1px solid rgb(255,64,129);
+
+}
+.mdl-button.mdl-button--colored {
+    background-color: rgb(63,81,181);
+    color: white;
+    border: 1px solid rgb(63,81,181);
+}
+
+.btn[disabled] {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+    background: white;
+    padding: 6px 22px;
+    color: black;
+    font-size: 15px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+}
+.btn {
+    padding: 6px 22px;
+    background: deepskyblue;
+    color: white;
+}
+#question label {
+    display: block;
+    margin: 4px;
+    padding: 8px;
+    background: #65a5b70f;
+    color: #000;
+    min-width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 1.42857143;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid cornflowerblue;
+    width: 26%;
+}
+
+#background {
+    width:300px;
+    height:400px;
+    background:gray;
+    margin:50px auto;
+    transition: all 2s ease;
+}
+
+button {
+    border:0;
+    color:#fff;
+}
+
+#result {
+    display:block;
+    font-family: sans-serif;
+    width:230px;
+    height:50px;
+    margin:10px auto;
+    text-align: right;
+    border:0;
+    background:#3b3535;
+    color:#fff;
+    padding-top:20px;
+    font-size:20px;
+    margin-left: 25px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top:10px;
+}
+
+#result:hover {
+    
+    cursor: text;
+    
+}
+
+#first-rows {
+    margin-bottom: 20px;
+    position: relative;
+    top:10px;
+}
+
+.rows {
+    width:300px;
+    margin-top:10px;
+}
+
+#delete {
+    width:110px;
+    height:50px;
+    margin-left:25px;
+    border-radius:4px;
+}
+
+/* Aligning the division and dot button properly */
+.fall-back {
+    margin-left:3px !important;
+}
+
+/* Aligning the addition and equals to button properly */
+.align {
+    margin-left: 6px !important;
+}
+
+/* Button styling */
+.btn-style {
+    width:50px;
+    height:50px;
+    margin-left:5px;
+    border-radius:4px;
+}
+
+.eqn {
+    width:50px;
+    height:50px;
+    margin-left:5px;
+    border-radius:4px;
+}
+
+.first-child {
+ margin-left:25px;
+}
+
+
+/* Adding background color to the number values */
+ .num-bg {
+    background:#000;
+    color:#fff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    border-bottom:3px solid #333;
+}
+
+ .num-bg:active {
+    background:#000;
+    color:#fff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    box-shadow: inset 5px 5px 5px #555;
+}
+
+/*Adding background color to the operator values */ 
+.opera-bg {
+    background:#333;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #555;
+}
+
+.opera-bg:active {
+    background:#333;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #555;
+}
+
+/*Adding a background color to the delete button */
+.del-bg {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #399cb9;
+}
+
+.del-bg:active {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #399cb9;
+}
+
+/*Adding a background color to the equals to button */
+#eqn-bg {
+    background:#17a928;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #1f7a29;
+}
+
+#eqn-bg:active {
+    background:#17a928;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #1f7a29;
+}
+

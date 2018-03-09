@@ -1,0 +1,47 @@
+{
+    "id": 3,
+    "name": "section 3",
+    "description": "Design Patterns Quiz including solid principles.",
+    "questions": [
+        {
+            "id": 1010,
+            "title": "AWA ISSUE",
+            "name": "Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+            "questionTypeId": 1,
+            "type": "text",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "single answer",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "title": "AWA ARGUMENT",
+            "name": "The following appeared as part of a letter to the editor of a scientific journal.A recent study of eighteen rhesus monkeys provides clues as to the effects of birth order on an individual's levels of stimulation. The study showed that in stimulating situations (such as an encounter with an unfamiliar monkey), firstborn infant monkeys produce up to twice as much of the hormone cortisol, which primes the body for increased activity levels, as do their younger siblings. Firstborn humans also produce relatively high levels of cortisol in stimulating situations (such as the return of a parent after an absence). The study also found that during pregnancy, first-time mother monkeys had higher levels of cortisol than did those who had had several offspring.Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "single answer",
+                "isActive": true
+            }
+        }
+       
+    ]
+}

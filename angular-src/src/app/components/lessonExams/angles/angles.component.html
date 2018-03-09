@@ -1,0 +1,549 @@
+<div class="row">
+  <div class="hold-transition skin-blue sidebar-mini" style="height:583px">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a routerLink="/start" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span>
+            <img src="../assets/images/gtsoft.png">
+          </span>
+          <!-- logo for regular state and mobile devices -->
+          <span>
+            <b>GT</b>SOFTPREP</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              <!-- Tasks Menu -->
+              <li class="dropdown tasks-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-flag-o"></i>
+                  <span class="label label-danger">9</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">Notifications</li>
+                  <li>
+                    <!-- Inner menu: contains the tasks -->
+                    <ul class="menu">
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <!-- Task title and progress text -->
+                          <h3>
+                            <ul class="notifications-box notifications-box-alt" style="list-style-type: none;padding: 0;">
+                              <li>
+                                <span class="bg-purple icon-notification glyph-icon icon-users"></span>
+                                <span class="notification-text">This is an error notification</span>
+                                <div class="notification-time">a few seconds ago
+                                  <span class="glyph-icon icon-clock-o"></span>
+                                </div>
+                                <a href="#" class="notification-btn btn btn-xs btn-black tooltip-button" data-placement="left" title="View details">
+                                  <i class="glyph-icon icon-arrow-right"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <span class="bg-warning icon-notification glyph-icon icon-ticket"></span>
+                                <span class="notification-text">This is a warning notification</span>
+                                <div class="notification-time">
+                                  <b>15</b> minutes ago
+                                  <span class="glyph-icon icon-clock-o"></span>
+                                </div>
+                                <a href="#" class="notification-btn btn btn-xs btn-black tooltip-button" data-placement="left" title="View details">
+                                  <i class="glyph-icon icon-arrow-right"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <span class="bg-green icon-notification glyph-icon icon-random"></span>
+                                <span class="notification-text font-green">A success message example.</span>
+                                <div class="notification-time">
+                                  <b>2 hours</b> ago
+                                  <span class="glyph-icon icon-clock-o"></span>
+                                </div>
+                                <a href="#" class="notification-btn btn btn-xs btn-black tooltip-button" data-placement="left" title="View details">
+                                  <i class="glyph-icon icon-arrow-right"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <span class="bg-purple icon-notification glyph-icon icon-users"></span>
+                                <span class="notification-text">This is an error notification</span>
+                                <div class="notification-time">a few seconds ago
+                                  <span class="glyph-icon icon-clock-o"></span>
+                                </div>
+                                <a href="#" class="notification-btn btn btn-xs btn-black tooltip-button" data-placement="left" title="View details">
+                                  <i class="glyph-icon icon-arrow-right"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <span class="bg-warning icon-notification glyph-icon icon-ticket"></span>
+                                <span class="notification-text">This is a warning notification</span>
+                                <div class="notification-time">
+                                  <b>15</b> minutes ago
+                                  <span class="glyph-icon icon-clock-o"></span>
+                                </div>
+                                <a href="#" class="notification-btn btn btn-xs btn-black tooltip-button" data-placement="left" title="View details">
+                                  <i class="glyph-icon icon-arrow-right"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <span class="bg-green icon-notification glyph-icon icon-random"></span>
+                                <span class="notification-text font-green">A success message example.</span>
+                                <div class="notification-time">
+                                  <b>2 hours</b> ago
+                                  <span class="glyph-icon icon-clock-o"></span>
+                                </div>
+                                <a href="#" class="notification-btn btn btn-xs btn-black tooltip-button" data-placement="left" title="View details">
+                                  <i class="glyph-icon icon-arrow-right"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </h3>
+
+
+
+                          <!-- The progress bar -->
+                          <div class="progress xs">
+                            <!-- Change the css width attribute to simulate progress -->
+                            <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">20% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                    </ul>
+                  </li>
+                  <li class="footer">
+                    <div class="button-pane button-pane-alt pad5T pad5L pad5R text-center">
+                      <a href="#" class="btn btn-flat btn-primary" title="View all notifications" style="color: #fff;
+                                      background: #E91E63;border: 1px solid #E91E63;">View all notifications
+                        <div class="ripple-wrapper"></div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- The user image in the navbar-->
+                  <img src="../assets/images/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                  <span class="hidden-xs">{{this.email}}</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- The user image in the menu -->
+                  <li class="user-header">
+                    <img src="../assets/images/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                    <p>
+                        {{this.email}}
+                       </p>
+                  </li>
+
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                    <div class="pull-left">
+                      <a href="#" class="btn btn-warning btn-flat" style="color: white">Profile</a>
+                    </div>
+                    <div class="pull-right">
+                      <a routerLink="/" class="btn btn-success btn-flat" (click)="logout()" style="color: white">Sign out</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- Control Sidebar Toggle Button -->
+              <li>
+                <a href="#" data-toggle="control-sidebar">
+                  <i class="fa fa-gears"></i>
+                </a>
+                <!-- Control Sidebar -->
+                <aside class="control-sidebar control-sidebar-dark ">
+
+                  <ul class="nav nav-tabs nav-justified control-sidebar-tabs ">
+                    <li class="active ">
+                      <a href="#control-sidebar-home-tab " data-toggle="tab ">
+                        <i class="fa fa-home "></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#control-sidebar-settings-tab " data-toggle="tab ">
+                        <i class="fa fa-gears "></i>
+                      </a>
+                    </li>
+                  </ul>
+
+
+                </aside>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar user panel (optional) -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="assets/images/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+              <p>Munna annem </p>
+              <!-- Status -->
+              <a href="#">
+                <i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+          </div>
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">HEADER</li>
+            <!-- Optionally, you can add icons to the links -->
+            <li class="active">
+              <a routerLink="/dashboard">
+                <i class="fa fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/lessons">
+                <i class="fa fa-files-o"></i>
+                <span>lessons</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/videos">
+                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                <span>Videos</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/practicetest">
+                <i class="fa fa-bullhorn"></i>
+                <span>Practice Test</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/full-length">
+                <i class="fa fa-edit"></i>
+                <span>Full Length Test</span>
+              </a>
+            </li>
+
+            <li class="treeview menu-open">
+              <a routerLink="/">
+                <i class="fa fa-bar-chart-o"></i>
+                <span>Review</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu" style="display: block;">
+                <li>
+                  <a routerLink="/">
+                    <i class="fa fa-circle-o"></i> Practise Analysis</a>
+                </li>
+                <li>
+                  <a routerLink="/">
+                    <i class="fa fa-circle-o"></i> Test Analysis</a>
+                </li>
+                <li>
+                  <a routerLink="/">
+                    <i class="fa fa-circle-o"></i> Session Review</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a routerLink="/feed-back">
+                <i class="fa fa-comment"></i>
+                <span>Feed Back Form</span>
+              </a>
+            </li>
+          </ul>
+          <!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <div class="container-fluid" id="page-body" style="height: 900px">
+          <div class="container">
+
+
+            <div class="container" *ngFor="let item of pagedItems">
+              <div class="text-center" style="background: white;">
+                <div class="box-header">
+                  <input type="hidden" name="confi" value="LOW">
+                  <input type="hidden" name="bokmark" value="UNFLAGGED">
+                  <div id="lessonid" style="display: none;">
+                    13
+                  </div>
+                  <div class="col-sm-3">
+                    <b> {{item.title}}</b>
+                    <b> {{item.title1}}</b>
+                  </div>
+                  <div class="col-sm-3 col-sm-offset-3">
+                    <p>Confidence Level</p>
+                    <div id="radio_button">
+                      <label class="low">
+                        <input type="radio" name="confidence" data-value="LOW">
+                        <span>Low</span>
+                      </label>
+                      <label class="medium">
+                        <input type="radio" name="confidence" data-value="MEDIUM">
+                        <span>Medium</span>
+                      </label>
+                      <label class="high">
+                        <input type="radio" name="confidence" data-value="HIGH">
+                        <span>High</span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <div class="dib pl_20">
+                      <p>Book mark this lesson</p>
+                      <span class="button-checkbox">
+                        <button type="button" id="book" class="btn-default active btn" data-color="default" style="height: 34px">
+                          <i class="fa-bookmark-o state-icon fa"></i>&nbsp;</button>
+                        <input type="checkbox" class="hidden" id="bookmark" checked="">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- items being paged -->
+                <div style="position: relative;
+                              line-height: 26px;
+                              text-align: left;
+                              /* left: 56px; */
+                              top: 37px;
+                              padding-left: 80px;
+                              height: 600px;
+                              overflow-y: scroll;
+                              color: #34495E;">
+                  <!-- Even And odd Properties  -->
+                  <h4>{{item.title1}}</h4>
+                  <b> {{item.Itest1}}</b>
+                  <br>
+                  <b> {{item.Itest2}}</b>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                      <p>{{item.Itname2}}</p>
+                      <p> {{item.Itname3}}</p>
+
+                      <p> {{item.Itname4}}</p>
+                      <p> {{item.Itname5}}</p>
+                      <p> {{item.Itname6}}</p>
+
+                      <b> {{item.Itest3}}</b>
+                      <p> {{item.Iname7}}</p>
+
+                      <p> {{item.Itname8}}</p>
+                      <p> {{item.Itname9}}</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>{{item.Iiimg}}</p>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                      <p> {{item.Itname10}}</p>
+                      <p> {{item.Itname11}}</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>{{item.Iiimg1}}</p>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                      <b> {{item.Ipname}} </b>
+                      <p> {{item.Itname12}}</p>
+                      <p> {{item.Itname13}}</p>
+                      <p> {{item.Itname14}}</p>
+                      <p> {{item.Itname15}}</p>
+                      <p> {{item.Itname16}}</p>
+                      <p> {{item.Itname17}}</p>
+                      <p>{{item.Itname18}}</p>
+                      <p> {{item.Itname19}}</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>{{item.Iiimg2}}</p>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                      <p>{{item.Ianame3}}</p>
+                      <p>{{item.Ianame4}}</p>
+                      <p>{{item.Ianame5}}</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>{{item.Inimg}}</p>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                      <p>{{item.Ianame7}}</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>{{item.Inimg1}}</p>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                      <p>{{item.Ianame8}}</p>
+                      <p>{{item.Ianame9}}</p>
+                      <p>{{item.Ianame10}}</p>
+                      <p>{{item.Ianame11}}</p>
+                      <p>{{item.Ianame12}}</p>
+                      <p>{{item.Ianame13}}</p>
+                      <p>{{item.Ianame14}}</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>{{item.Inimg2}}</p>
+                    </div>
+                  </div>
+                  <p>{{item.Iname2}}</p>
+                  <div class="col-md-12">
+                    <div class="col-md-6">
+                  <p> {{item.Iname3}}</p>
+                 
+                  <p> {{item.Iname5}}</p>
+                  <p> {{item.Iname6}}</p>
+                  <b> {{item.Itest3}}</b>
+                  <p> {{item.Iname7}}</p>
+                  <p> {{item.Iname8}}</p>
+                  <p> {{item.Iname9}}</p>
+                  <p> {{item.Iname10}}</p>
+                  <p> {{item.Iname11}}</p>
+                  <p> {{item.Iname12}}</p>
+                  <p> {{item.Iname13}}</p>
+                  <p> {{item.Iname14}}</p>
+                  <p> {{item.Iname15}}</p>
+                </div>
+                <div class="col-md-6">
+                  <p> {{item.Iname4}}</p>
+                  <p> {{item.Iname16}}</p>
+                  <p> {{item.Iname17}}</p>
+                  <p>{{item.Iname18}}</p>
+                  <p> {{item.Iname19}}</p>
+                  <p> {{item.Iname20}}</p>
+                  <p>{{item.Iname21}}</p>
+                  <p> {{item.Iname22}}</p>
+                  <p> {{item.Inamae23}}</p>
+                  <p> {{item.Iname24}}</p>
+                  <p> {{item.Iname25}}</p>
+                  <p> {{item.Iname26}}</p>
+                  <p> {{item.Iname27}}</p>
+                </div>
+                </div>
+
+            <div class="col-md-12">
+              <div class="col-md-6">
+                  <p> {{item.Ibname2}}</p>
+                  <p> {{item.Ibname3}}</p>
+                  <p> {{item.Ibname4}}</p>
+                  <p> {{item.Ibname5}}</p>
+                  <p> {{item.Ibname6}}</p>
+                  <p> {{item.Ibname7}}</p>
+                  <p> {{item.Ibname8}}</p>
+                  <p> {{item.Ibname9}}</p>
+                  <p> {{item.Ibname10}}</p>
+                  <p>{{item.Ibname11}}</p>
+                  <p> {{item.Ibname12}}</p>
+                  <p> {{item.Ibname13}}</p>
+                  <p>{{item.Ibname14}}</p>
+                  <p> {{item.Ibname15}}</p>
+                  <p> {{item.Ibname16}}</p>
+                  <p> {{item.Ibname17}}</p>
+                  <p> {{item.Ibnamae18}}</p>
+                  <p> {{item.Ibname19}}</p>
+                  <p> {{item.Ibname20}}</p>
+                  <p> {{item.Ibname21}}</p>
+                  <p> {{item.Ibname22}}</p>
+                  <p> {{item.Ibname23}}</p>
+                  <p> {{item.Ibname24}}</p>
+                  <p> {{item.Ibname25}}</p>
+                  <p> {{item.Ibname26}}</p>
+                </div>
+                <div class="col-md-6">
+                  <p>{{item.Ibimg}}</p>
+                  <p>{{item.Ibimg1}}</p>
+                  <p>{{item.Ibimg2}}</p>
+                  <p>{{item.Ibimg3}}</p>
+                  <p>{{item.Ibimg4}}</p>
+                  <p>{{item.Ibimg5}}</p>
+                  <p>{{item.Ibimg6}}</p>
+                </div>
+              </div>
+
+                <!-- pager -->
+                <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="dib pull-left">
+                        <div [ngClass]="{disabled:pager.currentPage === 1}" style="    position: relative;
+                                       right: 240px;
+                                       top: 15px;">
+                          <a (click)="setPage(pager.currentPage - 1)" class="btn btn-github" id="prev">
+                            <i class="fa fa-arrow-left"></i> Previous Lesson </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4" style="position: relative; top: 15px;">
+                      <div class="dib">
+                        <p class="dib">Add Notes</p>
+                        &nbsp;&nbsp;
+                        <a class="btn btn-social-icon btn-google-plus notes">
+                          <i class="fa fa-pencil-square-o"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="dib pull-right">
+                        <div [ngClass]="{disabled:pager.currentPage === pager.totalPages}" style="position: relative; left: 198px;top: 15px;">
+                          <a (click)="setPage(pager.currentPage + 1)" class="btn btn-github" id="next"> Next Lesson
+                            <i class="fa fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <!-- /.content -->
+      </div>
+
+      <!-- Main Footer -->
+      <footer class="main-footer ">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs ">
+          Anything you want
+        </div>
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2018
+          <a href="# ">Softprep</a>.</strong> All rights reserved.
+      </footer>
+    </div>
+  </div>

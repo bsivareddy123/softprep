@@ -1,0 +1,704 @@
+{
+    "id": 2,
+    "name": "section2",
+    "description": "C# and .Net Quiz (contains C#, .Net Framework, Linq, etc.)",
+    "config": {
+        "shuffleQuestions": true,
+        "showPager": false,
+        "allowBack": true,
+        "autoMove": true
+    },
+    "questions": [
+        {
+            "id": 1010,
+            "name": "In a cross-cultural study of four hundred pre-industrial societies, social scientist James W. Prescott found that in societies in which little affection is shown to infants, there is a _________ of institutions devoted to organized religion and social hierarchy",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": " miscellany",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "deluge ",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "preponderance",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "plethora",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "shortage",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1060,
+                    "questionId": 1010,
+                    "name": "majority",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": " A simplistic __________ of idealism is to assert that because physical reality appears solid and real to the senses, no other substances exist.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "refutation",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "censure",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "antithesis",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "equivocation ",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "rebuttal ",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "summary",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": " Dr. Jack Kevorkian became a subject of controversy in the 1990s by assisting terminally ill people to commit suicide in contravention of Michigan statutes ___________ such actions.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "justifying",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "proscribing",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "presaging",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "abjuring",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "substantiating",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Like most movements in art, surrealism became ____________ fairly quickly, butits influence is still pervasive.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "atavistic",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "insolvent",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "rarefied",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "enervated ",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "rococo",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Many contemporary thinkers argue that the theory of evolution solved the philosophical problem of _________ that nature seems to possess inherent goals toward which life moves—by establishing that there is no such purpose, rather merely continuous adaptation by organisms to their habitat.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "ontology",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Lamarckism",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "teleology",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "speciation",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "reification",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "In the debate in America concerning whether guns should be more strictly controlled, it has been asserted that comparisons between America and other Western devel-oped countries are ________ because they do not take into consideration the cultural context of American history and values such as the frontier tradition and the  __________ reliance of isolated farmers on guns.",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Blank A",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "The Permanent Court of International Justice ___________ called the ('World Court') is one of the primary bodies rendering judgments on international law, ___________ disputes between countries in such areas as refugees, resources, and national borders",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Blank A",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Some critics argue that it is a writer's responsibility to  ___________ the values of society, and that literature that does not do so is  ________ and irresponsible.",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Blank A",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Early Chinese works _________ during the performance of ancestral rites, the ghosts are to be represented by people known as the personators of the dead who are supposed to receive the offerings and be their mouthpieces.  ___________ in the popular view, frequently occurs in India, China, Japan, and Indo-China and is one of the many factors which have contributed to the idea of __________",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Blank A",
+                    "isAnswer": false
+                }
+            
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "As does every human endeavor, philosophy involves  ________; thus when a philosopher with a different point of view presents a __________ argument against the view of another philosopher, the latter often gives it only  __________",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Blank A",
+                    "isAnswer": true
+                }
+            
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1020,
+            "name": "As does every human endeavor, philosophy involves  ________; thus when a philosopher with a different point of view presents a __________ argument against the view of another philosopher, the latter often gives it only  __________",
+            "questionTypeId":3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Blank A",
+                    "isAnswer": true
+                }
+            
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "name": "The meaning of the word 'conventional' as it is used in the first paragraph is most nearly Egyptian painters laid on broad, flat, uniform washes of color; they did not paint in our sense of the term; they illuminated. Just as in drawing they reduced every-thing to lines, and almost wholly suppressed the internal modeling, so in adding Line color they still further simplified their subject by merging all varieties of tone, and (5) all play of light and shadow, in one uniform tint. Egyptian painting is never quite true, and never quite false. Without pretending to the faithful imitation of nature, it approaches nature as nearly as it may; sometimes understating, sometimes exaggerating, sometimes substituting ideal or conventional renderings for strict realities. Water, for instance, is always represented by a flat tint of blue, or by blue covered (10) with zigzag lines in black. The buff and bluish hues of the vulture are translated into bright red and vivid blue. The flesh-tints of men are of a dark reddish brown, and the flesh-tints of women are pale yellow. The colors assigned to each animate and inanimate object were taught in the schools, and their use handed on unchanged from generation to generation. Now and then it happened that a painter more dar- (15) ing than his contemporaries ventured to break with tradition. In the Sixth Dynasty tombs at Deir el Gebrawi, there are instances where the flesh tint of the women is that normally devoted to the depiction of men. At Sakkarah, under the Fifth Dynasty, and at Abu Simbel, under the Nineteenth Dynasty, we find men with skins as yellow as those of the women; while in the tombs of Thebes and Abydos, about the time of (20) Thothmes IV. and Horemheb, there occur figures with flesh-tints of rose-color. It must not, however, be supposed that the effect produced by this artificial system was grating or discordant. Even in works of small size, such as illuminated manuscripts of The Book of the Dead, or the decoration of mummy-cases and funer-ary coffers, there is both sweetness and harmony of color. The most brilliant hues (25) are boldly placed side by side, yet with full knowledge of the relations subsisting between these hues, and of the phenomena which must necessarily result from such relations Egyptian painters laid on broad, flat, uniform washes of color; they did not paint in our sense of the term; they illuminated. Just as in drawing they reduced every-thing to lines, and almost wholly suppressed the internal modeling, so in adding Line color they still further simplified their subject by merging all varieties of tone, and (5) all play of light and shadow, in one uniform tint. Egyptian painting is never quite true, and never quite false. Without pretending to the faithful imitation of nature, it approaches nature as nearly as it may; sometimes understating, sometimes exaggerating, sometimes substituting ideal or conventional renderings for strict realities. Water, for instance, is always represented by a flat tint of blue, or by blue covered (10) with zigzag lines in black. The buff and bluish hues of the vulture are translated into bright red and vivid blue. The flesh-tints of men are of a dark reddish brown, and the flesh-tints of women are pale yellow. The colors assigned to each animate and inanimate object were taught in the schools, and their use handed on unchanged from generation to generation. Now and then it happened that a painter more dar- (15) ing than his contemporaries ventured to break with tradition. In the Sixth Dynasty tombs at Deir el Gebrawi, there are instances where the flesh tint of the women is that normally devoted to the depiction of men. At Sakkarah, under the Fifth Dynasty, and at Abu Simbel, under the Nineteenth Dynasty, we find men with skins as yellow as those of the women; while in the tombs of Thebes and Abydos, about the time of (20) Thothmes IV. and Horemheb, there occur figures with flesh-tints of rose-color. It must not, however, be supposed that the effect produced by this artificial system was grating or discordant. Even in works of small size, such as illuminated manuscripts of The Book of the Dead, or the decoration of mummy-cases and funer-ary coffers, there is both sweetness and harmony of color. The most brilliant hues (25) are boldly placed side by side, yet with full knowledge of the relations subsisting between these hues, and of the phenomena which must necessarily result from such relations",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "artificial",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "conformist",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "unoriginal",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "established by usage",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "stereotyped",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1022,
+            "name": "Egyptian painters laid on broad, flat, uniform washes of color; they did not paint in our sense of the term; they illuminated. Just as in drawing they reduced every-thing to lines, and almost wholly suppressed the internal modeling, so in adding Line color they still further simplified their subject by merging all varieties of tone, and (5) all play of light and shadow, in one uniform tint. Egyptian painting is never quite true, and never quite false. Without pretending to the faithful imitation of nature, it approaches nature as nearly as it may; sometimes understating, sometimes exaggerating, sometimes substituting ideal or conventional renderings for strict realities. Water, for instance, is always represented by a flat tint of blue, or by blue covered (10) with zigzag lines in black. The buff and bluish hues of the vulture are translated into bright red and vivid blue. The flesh-tints of men are of a dark reddish brown, and the flesh-tints of women are pale yellow. The colors assigned to each animate and inanimate object were taught in the schools, and their use handed on unchanged from generation to generation. Now and then it happened that a painter more dar- (15) ing than his contemporaries ventured to break with tradition. In the Sixth Dynasty tombs at Deir el Gebrawi, there are instances where the flesh tint of the women is that normally devoted to the depiction of men. At Sakkarah, under the Fifth Dynasty, and at Abu Simbel, under the Nineteenth Dynasty, we find men with skins as yellow as those of the women; while in the tombs of Thebes and Abydos, about the time of (20) Thothmes IV. and Horemheb, there occur figures with flesh-tints of rose-color. It must not, however, be supposed that the effect produced by this artificial system was grating or discordant. Even in works of small size, such as illuminated manuscripts of The Book of the Dead, or the decoration of mummy-cases and funer-ary coffers, there is both sweetness and harmony of color. The most brilliant hues (25) are boldly placed side by side, yet with full knowledge of the relations subsisting between these hues, and of the phenomena which must necessarily result from such relations. They neither jar together, nor war with each other, nor extinguish each other. On the contrary, each maintains its own value, and all, by mere juxta Egyptian painters laid on broad, flat, uniform washes of color; they did not paint in our sense of the term; they illuminated. Just as in drawing they reduced every-thing to lines, and almost wholly suppressed the internal modeling, so in adding Line color they still further simplified their subject by merging all varieties of tone, and (5) all play of light and shadow, in one uniform tint. Egyptian painting is never quite true, and never quite false. Without pretending to the faithful imitation of nature, it approaches nature as nearly as it may; sometimes understating, sometimes exaggerating, sometimes substituting ideal or conventional renderings for strict realities. Water, for instance, is always represented by a flat tint of blue, or by blue covered (10) with zigzag lines in black. The buff and bluish hues of the vulture are translated into bright red and vivid blue. The flesh-tints of men are of a dark reddish brown, and the flesh-tints of women are pale yellow. The colors assigned to each animate and inanimate object were taught in the schools, and their use handed on unchanged from generation to generation. Now and then it happened that a painter more dar- (15) ing than his contemporaries ventured to break with tradition. In the Sixth Dynasty tombs at Deir el Gebrawi, there are instances where the flesh tint of the women is that normally devoted to the depiction of men. At Sakkarah, under the Fifth Dynasty, and at Abu Simbel, under the Nineteenth Dynasty, we find men with skins as yellow as those of the women; while in the tombs of Thebes and Abydos, about the time of (20) Thothmes IV. and Horemheb, there occur figures with flesh-tints of rose-color. It must not, however, be supposed that the effect produced by this artificial system was grating or discordant. Even in works of small size, such as illuminated manuscripts of The Book of the Dead, or the decoration of mummy-cases and funer-ary coffers, there is both sweetness and harmony of color. The most brilliant hues (25) are boldly placed side by side, yet with full knowledge of the relations subsisting between these hues, and of the phenomena which must necessarily result from such relations. They neither jar together, nor war with each other, nor extinguish each other. On the contrary, each maintains its own value, and all, by mere juxta position, give rise to the half-tones which harmonize them.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Understatement",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Conventions",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Contrast",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Exaggeration",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "perspective",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1023,
+            "name": "Are boldly placed side by side, yet with full knowledge of the relations subsisting between these hues, and of the phenomena which must necessarily result from such relations. They neither jar together, nor war with each other, nor extinguish each other. On the contrary, each maintains its own value, and all, by mere juxtaposition, give rise to the half-tones which harmonize them. Based on the information in the passage, which of the following would the author be likely to agree with?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Ancient Egyptian art was handicapped by adherence to conventions passed down from generation to generation",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Painters of ancient Egypt played a major role in the development of chiaroscuro, the technique of depicting light and dark tones to create an illusion of depth and modeling",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Knowledge of the conventions of ancient Egyptian art would very probably enhance a person's aesthetic appreciation of it",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1024,
+            "name": "Viewed from a cosmic perspective, Earth is a dry planet yet its oceans are enriched in deuterium by a large factor relative to nebular hydrogen. The question of exog-enous delivery of organics and water to Earth and other young planets is of critical Line importance for understanding planetary systems, and for assessing the prospects for (5) existence of Earth-like exo-planets. Icy bodies today reside in two distinct reservoirs, the OC and the KB region (divided into the classical KB, the scattered disk, and the detached or extended disk populations). Comets injected into the inner planetary system are classified dynamically as isotropic (LPC or HTC) or ecliptic (Centaur-type, Encke-type, of JFC). Ecliptic comets come from the KB reservoir while the (10) isotropic comets come from the Oort cloud. All except Centaur-type comets have the potential of becoming sufficiently bright to obtain sensitive detection of their volatile fraction through high-resolution NIR spectra. Strong gradients in temperature and chemistry in the proto-planetary disk, coupled with dynamical dispersion of an outer disk of icy planetesimals, imply that (15) comets from the formative phase of the Solar System should have diverse composition. The 'Nice' model predicts that comets formed in (and ejected from) the giant-planets' feeding zones probably entered the outer disk, whose subsequent disruption contributed some of the mass impacting Earth during the late heavy bombardment. Comets formed in the outer proto-planetary disk entered both the 20) Kuiper disk and the OC, though likely in different proportions. However, recent dynamical studies suggest that many Oort cloud comets may have been captured from sibling stars in the Sun's birth cluster, posing additional questions regarding diversity among comets in that reservoir. While orbital parameters can indicate the cosmic storage reservoir for a given comet, identifying its region of origin depends (25) on quantitative knowledge of its components— dust and ice. The so-called parent volatiles. provide the preferred metrics for building taxonomy for cometary ices, but until recently they were difficult to measure. Secondary (or even tertiary) free radi-cals are more easily detected and so form the basis of extensive taxonomies that have provided valuable insights. However, these derivative species can have multiple ori -(30) gins, and these are sometimes poorly constrained, complicating their interpretation. Taxonomies based on native species (parent volatiles) are now beginning to emerge",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": " a theory about the composition of comets in the Oort cloud",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": " theory about the origin of the gassy giant planets, such as Jupiter and Saturn (C",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": " a theory about the origin of the objects that impacted Earth during the late heavy bombardment",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": " a theory of the evolution of the Solar System",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "a leading hypothesis about how comets disrupted the outer proto-planetary disc, leading to the late heavy bombardment",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1025,
+            "name": "If poetry in its higher reaches is more philosophical than history, because it presents the memorable types of men and things apart from unmeaning circumstances, so in its primary substance and texture poetry is more philosophical than prose because Line it is nearer to our immediate experience. Poetry breaks up the trite conceptions des- (5) ignated by current words into the sensuous qualities out of which those conceptions were originally put together. We name what we conceive and believe in, not what we see; things, not images; souls, not voices and silhouettes. This naming, with the whole education of the senses which it accompanies, subserves the uses of life; in order to thread our way through the labyrinth of objects which assault us, we must make a (10) great selection in our sensuous experience; half of what we see and hear we must pass over as insignificant, while we piece out the other half with such an ideal comple-ment as is necessary to turn it into a fixed and well-ordered conception of the world. This labor of perception and understanding, this spelling of the material meaning of experience, is enshrined in our workaday language and ideas; ideas which are literally (15) poetic in the sense that they are 'made' (for every conception in an adult mind is a fiction), but which are at the same time prosaic because they are made economically, by abstraction, and for use. When the child of poetic genius, who has learned this intellectual and utilitarian language in the cradle, goes afield and gathers for himself the aspects of nature, he (20) begins to encumber his mind with the many living impressions which the intellect rejected, and which the language of the intellect can hardly convey; he labors with his nameless burden of perception, and wastes himself in aimless impulses of emo-tion and reverie, until finally the method of some art offers a vent to his inspiration, or to such part of it as can survive the test of time and the discipline of expression. (25) The poet retains by nature the innocence of the eye, or recovers it easily; he disintegrates the fictions of common perception into their sensuous elements, gathers these together again into chance groups as the accidents of his environment or the affinities of his temperament may conjoin them; and this wealth of sensation and this freedom of fancy, which make an extraordinary ferment in his ignorant heart, (30) presently bubble over into some kind of utterance. The fullness and sensuousness of such effusions bring them nearer to our actual perceptions than common discourse could come; yet they may easily seem remote, overloaded, and obscure to those accustomed to think entirely in symbols, and never to be interrupted in the algebraic rapidity of their thinking by a moment's pause and (35) examination of heart, nor ever to plunge for a moment into that torrent of sensation and imagery over which the bridge of prosaic associations habitually carries us safe and dry to some conventional act. How slight that bridge commonly is, how much an affair of trestle and wire, we can hardly conceive until we have trained ourselves to an extreme sharpness of introspection. But psychologists have discovered, what (40) laymen generally will confess, that we hurry by the procession of our mental images as we do by the traffic of the street, intent on business, gladly forgetting the noise and movement of the scene, and looking only for the corner we would turn or the door we would enter. Yet in our alertest moment the depths of the soul are still dreaming; the real world stands drawn in bare outline against a background of chaos and unrest . (45) Our logical thoughts dominate experience only as the parallels and meridians make a checkerboard of the sea. They guide our voyage without controlling the waves, which toss forever in spite of our ability to ride over them to our chosen ends. Sanity is a madness put to good uses; waking life is a dream controlled. Out of the neglected riches of this dream the poet fetches his wares. He dips into (50) the chaos that underlies the rational shell of the world and brings up some superfluous image, some emotion dropped by the way, and reattaches it to the present object; he reinstates things unnecessary, he emphasizes things ignored, he paints in again into the landscape the tints which the intellect has allowed to fade from it. If he seems sometimes to obscure a fact, it is only because he is restoring an experi- (55) ence. The first element which the intellect rejects in forming its ideas of things is the emotion which accompanies the perception; and this emotion is the first thing the poet restores. He stops at the image, because he stops to enjoy. He wanders into the bypaths of association because the bypaths are delightful. The love of beauty which made him give measure and cadence to his words, the love of harmony which made (60) him rhyme them, reappear in his imagination and make him select there also the material that is itself beautiful, or capable of assuming beautiful forms. The link that binds together the ideas, sometimes so wide apart, which his wit assimilates, is most often the link of emotion; they have in common some element of beauty or of horror",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "dramatically illustrate that the only way in which the truth can be described is through images",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "show that imagery can not convey 'philosophical' truth",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "show that metaphor is the predominant way in which words are create",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "make vivid the idea that the language used in everyday life helps people to avoid the turmoil of sensations and images that lie just below the conscious mind",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "make clear the idea that our conscious thoughts travel across a vast unexplored sea of churning feelings and images",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1026,
+            "name": "If poetry in its higher reaches is more philosophical than history, because it presents the memorable types of men and things apart from unmeaning circumstances, so in its primary substance and texture poetry is more philosophical than prose because Line it is nearer to our immediate experience. Poetry breaks up the trite conceptions des- (5) ignated by current words into the sensuous qualities out of which those conceptions were originally put together. We name what we conceive and believe in, not what we see; things, not images; souls, not voices and silhouettes. This naming, with the whole education of the senses which it accompanies, subserves the uses of life; in order to thread our way through the labyrinth of objects which assault us, we must make a (10) great selection in our sensuous experience; half of what we see and hear we must pass over as insignificant, while we piece out the other half with such an ideal comple-ment as is necessary to turn it into a fixed and well-ordered conception of the world. This labor of perception and understanding, this spelling of the material meaning of experience, is enshrined in our workaday language and ideas; ideas which are literally 15) poetic in the sense that they are 'made' (for every conception in an adult mind is a fiction), but which are at the same time prosaic because they are made economically, by abstraction, and for use. When the child of poetic genius, who has learned this intellectual and utilitarian language in the cradle, goes afield and gathers for himself the aspects of nature, he (20) begins to encumber his mind with the many living impressions which the intellect rejected, and which the language of the intellect can hardly convey; he labors with his nameless burden of perception, and wastes himself in aimless impulses of emo-tion and reverie, until finally the method of some art offers a vent to his inspiration, or to such part of it as can survive the test of time and the discipline of expression. (25) The poet retains by nature the innocence of the eye, or recovers it easily; he disintegrates the fictions of common perception into their sensuous elements, gathers these together again into chance groups as the accidents of his environment or the affinities of his temperament may conjoin them; and this wealth of sensation and this freedom of fancy, which make an extraordinary ferment in his ignorant heart (30) presently bubble over into some kind of utterance. The fullness and sensuousness of such effusions bring them nearer to our actual perceptions than common discourse could come; yet they may easily seem remote, overloaded, and obscure to those accustomed to think entirely in symbols, and never to be interrupted in the algebraic rapidity of their thinking by a moment's pause and (35) examination of heart, nor ever to plunge for a moment into that torrent of sensation and imagery over which the bridge of prosaic associations habitually carries us safe and dry to some conventional act. How slight that bridge commonly is, how much an affair of trestle and wire, we can hardly conceive until we have trained ourselves to an extreme sharpness of introspection. But psychologists have discovered, what (40) laymen generally will confess, that we hurry by the procession of our mental images as we do by the traffic of the street, intent on business, gladly forgetting the noise and movement of the scene, and looking only for the corner we would turn or the door we would enter. Yet in our alertest moment the depths of the soul are still dreaming; the real world stands drawn in bare outline against a background of chaos and unrest (45) Our logical thoughts dominate experience only as the parallels and meridians make a checkerboard of the sea. They guide our voyage without controlling the waves, which toss forever in spite of our ability to ride over them to our chosen ends. Sanity is a madness put to good uses; waking life is a dream controlled. Out of the neglected riches of this dream the poet fetches his wares. He dips into (50) the chaos that underlies the rational shell of the world and brings up some superfluous image, some emotion dropped by the way, and reattaches it to the present object; he reinstates things unnecessary, he emphasizes things ignored, he paints in again into the landscape the tints which the intellect has allowed to fade from it. If he seems sometimes to obscure a fact, it is only because he is restoring an experi- (55) ence. The first element which the intellect rejects in forming its ideas of things is the emotion which accompanies the perception; and this emotion is the first thing the poet restores. He stops at the image, because he stops to enjoy. He wanders into the bypaths of association because the bypaths are delightful. The love of beauty which made him give measure and cadence to his words, the love of harmony which made (60) him rhyme them, reappear in his imagination and make him select there also the material that is itself beautiful, or capable of assuming beautiful forms. The link that binds together the ideas, sometimes so wide apart, which his wit assimilates, is most often the link of emotion; they have in common some element of beauty or of horror",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "enable us to put a name to vague feelings and ideas so that we can better order our world",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "help us to experience things directly unmediated by the intellect",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "descend into the part of the mind that is in most people unconscious to bring up important memories",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "encourage people to leave behind 'the rational shell of the world' in order to appreciate beauty",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "help us to formulate our own original images out of our experience",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1027,
+            "name": "If poetry in its higher reaches is more philosophical than history, because it presents the memorable types of men and things apart from unmeaning circumstances, so in its primary substance and texture poetry is more philosophical than prose because Line it is nearer to our immediate experience. Poetry breaks up the trite conceptions des- (5) ignated by current words into the sensuous qualities out of which those conceptions were originally put together. We name what we conceive and believe in, not what we see; things, not images; souls, not voices and silhouettes. This naming, with the whole education of the senses which it accompanies, subserves the uses of life; in order to thread our way through the labyrinth of objects which assault us, we must make a (10) great selection in our sensuous experience; half of what we see and hear we must pass over as insignificant, while we piece out the other half with such an ideal comple-ment as is necessary to turn it into a fixed and well-ordered conception of the world. This labor of perception and understanding, this spelling of the material meaning of experience, is enshrined in our workaday language and ideas; ideas which are literally 15) poetic in the sense that they are 'made' (for every conception in an adult mind is a fiction), but which are at the same time prosaic because they are made economically, by abstraction, and for use. When the child of poetic genius, who has learned this intellectual and utilitarian language in the cradle, goes afield and gathers for himself the aspects of nature, he (20) begins to encumber his mind with the many living impressions which the intellect rejected, and which the language of the intellect can hardly convey; he labors with his nameless burden of perception, and wastes himself in aimless impulses of emo-tion and reverie, until finally the method of some art offers a vent to his inspiration, or to such part of it as can survive the test of time and the discipline of expression. (25) The poet retains by nature the innocence of the eye, or recovers it easily; he disintegrates the fictions of common perception into their sensuous elements, gathers these together again into chance groups as the accidents of his environment or the affinities of his temperament may conjoin them; and this wealth of sensation and this freedom of fancy, which make an extraordinary ferment in his ignorant heart (30) presently bubble over into some kind of utterance. The fullness and sensuousness of such effusions bring them nearer to our actual perceptions than common discourse could come; yet they may easily seem remote, overloaded, and obscure to those accustomed to think entirely in symbols, and never to be interrupted in the algebraic rapidity of their thinking by a moment's pause and (35) examination of heart, nor ever to plunge for a moment into that torrent of sensation and imagery over which the bridge of prosaic associations habitually carries us safe and dry to some conventional act. How slight that bridge commonly is, how much an affair of trestle and wire, we can hardly conceive until we have trained ourselves to an extreme sharpness of introspection. But psychologists have discovered, what (40) laymen generally will confess, that we hurry by the procession of our mental images as we do by the traffic of the street, intent on business, gladly forgetting the noise and movement of the scene, and looking only for the corner we would turn or the door we would enter. Yet in our alertest moment the depths of the soul are still dreaming; the real world stands drawn in bare outline against a background of chaos and unrest (45) Our logical thoughts dominate experience only as the parallels and meridians make a checkerboard of the sea. They guide our voyage without controlling the waves, which toss forever in spite of our ability to ride over them to our chosen ends. Sanity is a madness put to good uses; waking life is a dream controlled. Out of the neglected riches of this dream the poet fetches his wares. He dips into (50) the chaos that underlies the rational shell of the world and brings up some superfluous image, some emotion dropped by the way, and reattaches it to the present object; he reinstates things unnecessary, he emphasizes things ignored, he paints in again into the landscape the tints which the intellect has allowed to fade from it. If he seems sometimes to obscure a fact, it is only because he is restoring an experi- (55) ence. The first element which the intellect rejects in forming its ideas of things is the emotion which accompanies the perception; and this emotion is the first thing the poet restores. He stops at the image, because he stops to enjoy. He wanders into the bypaths of association because the bypaths are delightful. The love of beauty which made him give measure and cadence to his words, the love of harmony which made (60) him rhyme them, reappear in his imagination and make him select there also the material that is itself beautiful, or capable of assuming beautiful forms. The link that binds together the ideas, sometimes so wide apart, which his wit assimilates, is most often the link of emotion; they have in common some element of beauty or of horror",
+           "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Astronomers need only to know a comet's orbital parameters to determine its area of origin.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Based on what scientists now know it is probable that a significant amount of Earth's water is from comets that impacted on its surface.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Nearly all of the comets in the Solar System originated well after the Solar System formed.",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1028,
+            "name": "If poetry in its higher reaches is more philosophical than history, because it presents the memorable types of men and things apart from unmeaning circumstances, so in its primary substance and texture poetry is more philosophical than prose because Line it is nearer to our immediate experience. Poetry breaks up the trite conceptions des- (5) ignated by current words into the sensuous qualities out of which those conceptions were originally put together. We name what we conceive and believe in, not what we see; things, not images; souls, not voices and silhouettes. This naming, with the whole education of the senses which it accompanies, subserves the uses of life; in order to thread our way through the labyrinth of objects which assault us, we must make a (10) great selection in our sensuous experience; half of what we see and hear we must pass over as insignificant, while we piece out the other half with such an ideal comple-ment as is necessary to turn it into a fixed and well-ordered conception of the world. This labor of perception and understanding, this spelling of the material meaning of experience, is enshrined in our workaday language and ideas; ideas which are literally (15) poetic in the sense that they are 'made' (for every conception in an adult mind is a fiction), but which are at the same time prosaic because they are made economically, by abstraction, and for use. When the child of poetic genius, who has learned this intellectual and utilitarian language in the cradle, goes afield and gathers for himself the aspects of nature, he (20) begins to encumber his mind with the many living impressions which the intellect rejected, and which the language of the intellect can hardly convey; he labors with his nameless burden of perception, and wastes himself in aimless impulses of emo-tion and reverie, until finally the method of some art offers a vent to his inspiration, or to such part of it as can survive the test of time and the discipline of expression. (25) The poet retains by nature the innocence of the eye, or recovers it easily; he disintegrates the fictions of common perception into their sensuous elements, gathers these together again into chance groups as the accidents of his environment or the affinities of his temperament may conjoin them; and this wealth of sensation and this freedom of fancy, which make an extraordinary ferment in his ignorant heart, (30) presently bubble over into some kind of utterance. The fullness and sensuousness of such effusions bring them nearer to our actual perceptions than common discourse could come; yet they may easily seem remote, overloaded, and obscure to those accustomed to think entirely in symbols, and never to be interrupted in the algebraic rapidity of their thinking by a moment's pause and (35) examination of heart, nor ever to plunge for a moment into that torrent of sensation and imagery over which the bridge of prosaic associations habitually carries us safe and dry to some conventional act. How slight that bridge commonly is, how much an affair of trestle and wire, we can hardly conceive until we have trained ourselves to an extreme sharpness of introspection. But psychologists have discovered, what (40) laymen generally will confess, that we hurry by the procession of our mental images as we do by the traffic of the street, intent on business, gladly forgetting the noise and movement of the scene, and looking only for the corner we would turn or the door we would enter. Yet in our alertest moment the depths of the soul are still dreaming; the real world stands drawn in bare outline against a background of chaos and unrest (45) Our logical thoughts dominate experience only as the parallels and meridians make a checkerboard of the sea. They guide our voyage without controlling the waves, which toss forever in spite of our ability to ride over them to our chosen ends. Sanity is a madness put to good uses; waking life is a dream controlled. Out of the neglected riches of this dream the poet fetches his wares. He dips into (50) the chaos that underlies the rational shell of the world and brings up some superfluous image, some emotion dropped by the way, and reattaches it to the present object; he reinstates things unnecessary, he emphasizes things ignored, he paints in again into the landscape the tints which the intellect has allowed to fade from it. If he seems sometimes to obscure a fact, it is only because he is restoring an experi - (55) ence. The first element which the intellect rejects in forming its ideas of things is the emotion which accompanies the perception; and this emotion is the first thing the poet restores. He stops at the image, because he stops to enjoy. He wanders into the bypaths of association because the bypaths are delightful. The love of beauty which made him give measure and cadence to his words, the love of harmony which made (60) him rhyme them, reappear in his imagination and make him select there also the material that is itself beautiful, or capable of assuming beautiful forms. The link that binds together the ideas, sometimes so wide apart, which his wit assimilates, is most often the link of emotion; they have in common some element of beauty or of horror.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "abstract",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "reflective",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "logical",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "truth",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "incapable of being conclusively proven",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1029,
+            "name": "As does every human endeavor, philosophy involves  ________; thus when a philosopher with a different point of view presents a __________ argument against the view of another philosopher, the latter often gives it only  __________",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The religious practices of members of plantations brought from Africa were identical",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The family was the central institution of the society of the Negroes brought from Africa to be slaves",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "One of the factors that encouraged the early church of the Negroes on the plantation to take on a facade of Christianity was to make it more acceptable to the white master of the plantation",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+       
+    ]
+}

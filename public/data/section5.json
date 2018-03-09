@@ -1,0 +1,664 @@
+{
+    "id": 5,
+    "name": "section5",
+    "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "Because of the vast potential energy available from controlled fusion, scientists have worked hard to make the dream a reality; however, thus far experimenters have suc-ceeded only in producing __________ controlled fusion reactions lasting about one second",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": " arbitrary",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "illusory",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "transient",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "ordinary",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "anomalous",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1010,
+            "name": "Advances in technology are often purported to indicate progress, but it is possible that some of these advances are actually _________ to the overall improvement of human well-being",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "due",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "harmful",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "tangential",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "extraneous",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "inimical",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Within an infinitesimal amount of time after its creation, the universe was filled with a ___________ of microscopic particles of matter.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "pastiche ",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": " modicum",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "pastiche",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "mélange ",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "surfeit",
+                    "isAnswer": true
+                }
+
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Evidence is mounting that although planets might be relatively abundant, it may be rare to find non-gaseous planets in an orbit that is not highly __________ making it difficult for stable conditions to arise suitable for the advent of life.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": " idiosyncratic",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": " irregular",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "precarious",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "eccentric ",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "elusive",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+             "name": "While it is true that some jargon is unnecessary, much of it is used legitimately by experts, especially in __________ field",
+            "questionTypeId": 4,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "box",
+                    "isAnswer": true
+                }
+
+               
+            ]
+           
+        },
+        {
+            "id": 1015,
+             "name": "The advantage of a satellite in a geostationary orbit is that it is always available to receive and transmit, unlike other satellites that periodically 'disappear' over the horizon, ____________their signal; such twenty-four-hour availability greatly facilitates com",
+            "questionTypeId": 4,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "box",
+                    "isAnswer": false
+                }
+
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": " Proponents of expeditions to other solar systems contend that they are  ____________ because large vessels would contain ____________ that would closely mimic life on Earth, so that the astronauts would be comfortable even if the mission lasted several human generations.",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Block A",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Consumer advocates often criticize advertising for promoting demand for products that people do not truly need, and for ___________ making an objective assess-ment of the  __________ of products",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Block A",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "In the United States, much of the debate about abortion has  ___________into two positions, one camp arguing that it is __________ and the other asserting a woman's __________ to make decisions affecting her life",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Block A",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Since cognitive ___________ a condition of conflict between belief and action) produces anxiety, there is a tendency to avoid it by methods such as __________, which allow one to at least  ________ the effect of the conflict on one's psyche.",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Block A",
+                    "isAnswer": true
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1020,
+            "name": "The global average sea level rose between 0.1 m and 0.2 m during the twentieth cen-tury and it is projected to rise by another 0.09 m to 0.88 m between 1990 and 2100. But regional specificities must also be taken into account. On the one hand, in the Line Mediterranean, the increase of sea levels is moderated by the declining freshwater (5) input (with the decrease of average precipitations) and subsequent seawater density increase. But on the other hand, deltas, islands, coastal wetlands and estuaries are among the most threatened coastal environments in Europe. Also the tidal range is an important factor, with projected sensitivity to a given sea-level rise reaching maximum values in areas with a small tidal range. The Mediterranean is typically an (10)area of limited tidal range, which suggests that its vulnerability to sea-level rise will be exacerbated.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "tides in the Mediterranean generally vary little from high to low tide.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Changes in average annual precipitation in an area have a negligible effect on sea level.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Global average sea level might increase less between 1990 and 2100 than it did in the twentieth century",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "name": "Great powers and empires are, I would suggest, complex systems, made up of a very large number of interacting components that are asymmetrically organized, which means their construction more resembles a termite hill than an Egyptian pyramid. Line They operate somewhere between order and disorder—on the edge of chaos, in(5) the phrase of the computer scientist Christopher Langton. Such systems can appear to operate quite stably for some time; they seem to be in equilibrium but are, in fact, constantly adapting. But there comes a moment when complex systems 'go critical.' A very small trigger can set off a 'phase transition' from a benign equilibrium to a crisis—a single grain of sand causes a whole pile to collapse, or a butterfly flaps its (10) wings in the Amazon and brings about a hurricane in southeastern England. Not long after such crises happen, historians arrive on the scene. They are the scholars who specialize in the study of 'fat tail' events—the low-frequency, high-impact moments that inhabit the tails of probability distributions, such as wars, revolutions, financial crashes, and imperial collapses. But historians often misun- (15) derstand complexity in decoding these events. They are trained to explain calamity in terms of long-term causes, often dating back decades. This is what Nassim Taleb rightly condemned in The Black Swan as 'the narrative fallacy': the construction of psychologically satisfying stories on the principle of post hoc, ergo propter hoc. Drawing casual inferences about causation is an age-old habit. Take World War I. (20) A huge war breaks out in the summer of 1914, to the great surprise of nearly every-one. Before long, historians have devised a story line commensurate with the disas-ter: a treaty governing the neutrality of Belgium that was signed in 1839, the waning of Ottoman power in the Balkans dating back to the 1870s, and malevolent Germans and the navy they began building in 1897. A contemporary version of this fallacy (25) traces the 9/11 attacks back to the Egyptian government's 1966 execution of Sayyid Qutb, the Islamist writer who inspired the Muslim Brotherhood. Most recently, the financial crisis that began in 2007 has been attributed to measures of financial deregulation taken in the United States in the 1980s. In reality, the proximate triggers of a crisis are often sufficient to explain the (30) sudden shift from a good equilibrium to a bad mess. Thus, World War I was actually caused by a series of diplomatic miscalculations in the summer of 1914, the real origins of 9/11 lie in the politics of Saudi Arabia in the 1990s, and the financial crisis was principally due to errors in monetary policy by the U.S. Federal Reserve P R A C T I C E T E S T 2 PRACTICE TEST 2 209 and to China's rapid accumulation of dollar reserves after 2001. Most of the fat-tail (35) phenomena that historians study are not the climaxes of prolonged and determin-istic story lines; instead, they represent perturbations, and sometimes the complete breakdowns, of complex ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "historians have not gathered enough information about empires to be able to predict their future accurately",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "the concept of empire is so vague that empires cannot be studied scientifically",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "historians fail to understand that every empire is by definition in a period of 'phase transitions'",
+                    "isAnswer": false
+                }
+              
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1022,
+            "name": "Great powers and empires are, I would suggest, complex systems, made up of a very large number of interacting components that are asymmetrically organized, which means their construction more resembles a termite hill than an Egyptian pyramid. Line They operate somewhere between order and disorder—on the edge of chaos, in(5) the phrase of the computer scientist Christopher Langton. Such systems can appear to operate quite stably for some time; they seem to be in equilibrium but are, in fact, constantly adapting. But there comes a moment when complex systems 'go critical.' A very small trigger can set off a 'phase transition' from a benign equilibrium to a crisis—a single grain of sand causes a whole pile to collapse, or a butterfly flaps its (10) wings in the Amazon and brings about a hurricane in southeastern England. Not long after such crises happen, historians arrive on the scene. They are the scholars who specialize in the study of 'fat tail' events—the low-frequency, high-impact moments that inhabit the tails of probability distributions, such as wars, revolutions, financial crashes, and imperial collapses. But historians often misun - (15) derstand complexity in decoding these events. They are trained to explain calamity in terms of long-term causes, often dating back decades. This is what Nassim Taleb rightly condemned in The Black Swan as 'the narrative fallacy': the construction of psychologically satisfying stories on the principle of post hoc, ergo propter hoc. Drawing casual inferences about causation is an age-old habit. Take World War I. (20) A huge war breaks out in the summer of 1914, to the great surprise of nearly every-one. Before long, historians have devised a story line commensurate with the disas-ter: a treaty governing the neutrality of Belgium that was signed in 1839, the waning of Ottoman power in the Balkans dating back to the 1870s, and malevolent Germans and the navy they began building in 1897. A contemporary version of this fallacy (25) traces the 9/11 attacks back to the Egyptian government's 1966 execution of Sayyid Qutb, the Islamist writer who inspired the Muslim Brotherhood. Most recently, the financial crisis that began in 2007 has been attributed to measures of financial deregulation taken in the United States in the 1980s. In reality, the proximate triggers of a crisis are often sufficient to explain the (30) sudden shift from a good equilibrium to a bad mess. Thus, World War I was actually caused by a series of diplomatic miscalculations in the summer of 1914, the real origins of 9/11 lie in the politics of Saudi Arabia in the 1990s, and the financial crisis was principally due to errors in monetary policy by the U.S. Federal Reserve P R A C T I C E T E S T 2 PRACTICE TEST 2 209 and to China's rapid accumulation of dollar reserves after 2001. Most of the fat-tail (35) phenomena that historians study are not the climaxes of prolonged and determin-istic story lines; instead, they represent perturbations, and sometimes the complete breakdowns, of complex systems.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "after a certain period of time, therefore because of that period of time",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "after one event, therefore because of another event ",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "after this therefore because of this",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "small causes in the past, therefore great calamities in the present",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "true in the past, therefore proven even more to be true in the present",
+                    "isAnswer": true
+                }
+                
+
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1023,
+            "name": "Great powers and empires are, I would suggest, complex systems, made up of a very large number of interacting components that are asymmetrically organized, which means their construction more resembles a termite hill than an Egyptian pyramid. Line They operate somewhere between order and disorder—on the edge of chaos, in (5) the phrase of the computer scientist Christopher Langton. Such systems can appear to operate quite stably for some time; they seem to be in equilibrium but are, in fact, constantly adapting. But there comes a moment when complex systems 'go critical.'' A very small trigger can set off a 'phase transition'; from a benign equilibrium to a crisis—a single grain of sand causes a whole pile to collapse, or a butterfly flaps its (10) wings in the Amazon and brings about a hurricane in southeastern England. Not long after such crises happen, historians arrive on the scene. They are the scholars who specialize in the study of 'fat tail' events—the low-frequency, high-impact moments that inhabit the tails of probability distributions, such as wars, revolutions, financial crashes, and imperial collapses. But historians often misun - (15) derstand complexity in decoding these events. They are trained to explain calamity in terms of long-term causes, often dating back decades. This is what Nassim Taleb rightly condemned in The Black Swan as the narrative fallacy: the construction of psychologically satisfying stories on the principle of post hoc, ergo propter hoc. Drawing casual inferences about causation is an age-old habit. Take World War I. (20) A huge war breaks out in the summer of 1914, to the great surprise of nearly every-one. Before long, historians have devised a story line commensurate with the disas-ter: a treaty governing the neutrality of Belgium that was signed in 1839, the waning of Ottoman power in the Balkans dating back to the 1870s, and malevolent Germans and the navy they began building in 1897. A contemporary version of this fallacy (25) traces the 9/11 attacks back to the Egyptian government's 1966 execution of Sayyid Qutb, the Islamist writer who inspired the Muslim Brotherhood. Most recently, the financial crisis that began in 2007 has been attributed to measures of financial deregulation taken in the United States in the 1980s. In reality, the proximate triggers of a crisis are often sufficient to explain the (30) sudden shift from a good equilibrium to a bad mess. Thus, World War I was actually caused by a series of diplomatic miscalculations in the summer of 1914, the real origins of 9/11 lie in the politics of Saudi Arabia in the 1990s, and the financial crisis was principally due to errors in monetary policy by the U.S. Federal Reserve P R A C T I C E T E S T 2 PRACTICE TEST 2 209 and to China's rapid accumulation of dollar reserves after 2001. Most of the fat-tail (35) phenomena that historians study are not the climaxes of prolonged and determin-istic story lines; instead, they represent perturbations, and sometimes the complete breakdowns, of complex systems.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "have a tendency to believe that the causes of calamities are in the fairly distant past",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "generally feel a need to construct a story that explains how a calamity occurred as the outcome of a series of events",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "tend to view empires as complex systems operating 'between order and disorder'",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1024,
+            "name": "(5) which has gained prominence in the last 40 years or so through the work of Noam Chomsky—follows from human beings' innate capacity to acquire language. That is, language reflects mind: by investigating the organization and use of language systems we can gain some understanding of something basic in human nature, in particular regarding human cognitive ability. (10) Linguistic determinism refers to the proposition that, if human language reflects the structure of the human mind and all languages share the same basic properties, it follows that human language by its very nature determines how we perceive and organize our experience of the world, and in so doing imposes restrictions on the ways in which we can conceive 'reality.' In this view language does not reflect (15) the nature of reality as it is, but rather our conception of reality, all human beings having been born with an innate capacity to organize the world in a particular way (and that way alone). The term linguistic relativity refers to the view that not only does human lan-guage in general impose these mental limitations, but that particular languages (20) impose their own specific limitations. A language, it has been said, is an implicit philosophy of the world, and to speak a particular language is to subscribe to the philosophy it embodies.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "a sophist",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "a theologian",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "an epistemologist",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "a philologist",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1025,
+            "name": "Linguistics may be defined as the scientific study of language. There are many reasons for studying language. For some, language has an intrinsic interest, and different language systems, their history and relationships may be found worth Line investigating in themselves. Another reason for studying human language— one (5) which has gained prominence in the last 40 years or so through the work of Noam Chomsky—follows from human beings' innate capacity to acquire language. That is, language reflects mind: by investigating the organization and use of language systems we can gain some understanding of something basic in human nature, in particular regarding human cognitive ability . (10) Linguistic determinism refers to the proposition that, if human language reflects the structure of the human mind and all languages share the same basic properties, it follows that human language by its very nature determines how we perceive and organize our experience of the world, and in so doing imposes restrictions on the ways in which we can conceive 'reality.' In this view language does not reflect (15) the nature of reality 'as it is,' but rather our conception of reality, all human beings having been born with an innate capacity to organize the world in a particular way (and that way alone). The term linguistic relativity refers to the view that not only does human lan-guage in general impose these mental limitations, but that particular languages (20) impose their own specific limitations. A language, it has been said, is an implicit philosophy of the world, and to speak a particular language is to subscribe to the philosophy it embodies.",
+            "questionTypeId": 1,
+            "options": [
+                {   
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "linguistic determinism is true",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "some languages are more sophisticated than others",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "the nature of a language greatly affects how a person using that language thinks",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1026,
+            "name": "An 'ideal' cinder cone forms when eruption occurs on flat ground. From deep within the Earth, magma charged with gas (like a carbonated drink) rises through a vertical pipe-shaped conduit and erupts as a fountain of frothy lava that may spray Line as high as 2,000 feet into the air. As an individual blob of this frothy molten rock flies (5) through the air, it cools quickly enough to solidify before falling back to Earth. Many gas bubbles remain trapped in the fragments. If small, these fragments of rock are called 'cinders,' and if larger, 'bombs.' As eruption continues, cinders accumulate to form a conical hill. Periodically, the flanks of the growing hill may become so steep that lobes and sheets of cinders slide downward. When lava fountaining ends, a sym - (10) metrical cone-shaped hill, commonly indented by a summit crater, has been added to the landscape. Internally, the cone is a pile of loose cinders in layers that dip away from the volcano's vent in all directions. During the waning stage of an ideal cinder-cone eruption, the magma has lost most of its gas content. This gasdepleted magma does not fountain but oozes qui- (15) etly into the crater or beneath the base of the cone as lava. Because it contains so few gas bubbles, the molten lava is denser than the bubble-rich cinders. Thus, it burrows out along the bottom of the cinder cone, lifting the less-dense cinders like a cork on water, and advances outward, creating a lava flow around the cone's base. When the eruption ends, a symmetrical cone of cinders sits at the center of a surrounding pad (20) of lava. Field studies conducted by U.S. Geological Survey and Northern Arizona Univer-sity scientists suggest that Red Mountain grew on a nearly flat surface that may have sloped gently to the north. However, little else about this volcano mimics the fea-tures of an ideal cinder cone. When viewed from above, Red Mountain is a U-shaped (25) landform open to the west, rather than a symmetrical cone. The base of the U is a curving ridge that forms the highest part of the mountain. The nearly half-milelong arms of the U slope down to the west and merge with the gently rolling surface of the Red Mountain lava flow. By carefully measuring the orientation of cinder layers over all parts of Red (30) Mountain, geologists have mapped a radial pattern of layers, dipping away from the middle of the U in all directions. At the amphitheater, all the exposed layers dip uniformly to the northeast. This pattern indicates that the vent is somewhere in the middle of the U and not at the amphitheater The shape of Red Mountain and its overall pattern of cinder layers raises the (35) question of why a symmetrical cone was not created around the vent at the center of the U. Three possible explanations are: • If the lava-fountaining phase of eruption occurred during a time of sustained wind blowing from west to east, most cinders could have been blown eastward creating the asymmetrical shape of Red Mountain. However, eruptions of the type that (40) built Red Mountain usually last several years to a decade or longer, and it seems unlikely that a westerly wind could have persisted for such a period of time. • Perhaps the conduit through which magma rose to the surface was inclined eastward enough to give the same effect as a westerly wind, but this seems unlikely because the driving force for rising magma is the buoyancy of very hot volcanic (45) gases. Like a cork released in water, such gases tend to rise vertically rather than follow an inclined path. • The most likely possibility is that the waning-stage lava flow of the Red Mountain eruption rafted the western section of the cinder cone away, like wood on flowing water. When gas-poor molten lava burrows its way outward beneath a cinder cone, (50) it may either leave the cone undisturbed or carry pieces piggyback, literally floating pieces on the surface of the denser lava. Many examples of both situations are known worldwide; a spectacular example of rafting is found at Sunset Crater National Monument, northeast of Flagstaff. At Red Mountain, geologists have discovered several outcrops of layered cinder deposits, (25) some of which are hundreds of feet wide and tens of feet thick, at the top of the lava flow. Typically, these 'floaters' form hills on the surface of an otherwise fairly flat flow. Apparently, molten lava oozed out beneath the west base of Red Mountain and rafted away much of that side of the cinder cone, creating its U shape.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "perfect",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "symmetrical",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "created as a result of theorized stages of development",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "able to exist for millions of years with little change",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "existing only in a Platonic realm of ideal forms",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1027,
+            "name": "An 'ideal' cinder cone forms when eruption occurs on flat ground. From deep within the Earth, magma charged with gas (like a carbonated drink) rises through a vertical pipe-shaped conduit and erupts as a fountain of frothy lava that may spray Line as high as 2,000 feet into the air. As an individual blob of this frothy molten rock flies (5) through the air, it cools quickly enough to solidify before falling back to Earth. Many gas bubbles remain trapped in the fragments. If small, these fragments of rock are called 'cinders,' and if larger, 'bombs.' As eruption continues, cinders accumulate to form a conical hill. Periodically, the flanks of the growing hill may become so steep that lobes and sheets of cinders slide downward. When lava fountaining ends, a sym - (10) metrical cone-shaped hill, commonly indented by a summit crater, has been added to the landscape. Internally, the cone is a pile of loose cinders in layers that dip away from the volcano's vent in all directions. During the waning stage of an ideal cinder-cone eruption, the magma has lost most of its gas content. This gasdepleted magma does not fountain but oozes qui- (15) etly into the crater or beneath the base of the cone as lava. Because it contains so few gas bubbles, the molten lava is denser than the bubble-rich cinders. Thus, it burrows out along the bottom of the cinder cone, lifting the less-dense cinders like a cork on water, and advances outward, creating a lava flow around the cone's base. When the eruption ends, a symmetrical cone of cinders sits at the center of a surrounding pad (20) of lava. Field studies conducted by U.S. Geological Survey and Northern Arizona Univer-sity scientists suggest that Red Mountain grew on a nearly flat surface that may have sloped gently to the north. However, little else about this volcano mimics the fea-tures of an ideal cinder cone. When viewed from above, Red Mountain is a U-shaped (25) landform open to the west, rather than a symmetrical cone. The base of the U is a curving ridge that forms the highest part of the mountain. The nearly half-milelong arms of the U slope down to the west and merge with the gently rolling surface of the Red Mountain lava flow. By carefully measuring the orientation of cinder layers over all parts of Red (30) Mountain, geologists have mapped a radial pattern of layers, dipping away from the middle of the U in all directions. At the amphitheater, all the exposed layers dip uniformly to the northeast. This pattern indicates that the vent is somewhere in the middle of the U and not at the amphitheater The shape of Red Mountain and its overall pattern of cinder layers raises the (35) question of why a symmetrical cone was not created around the vent at the center of the U. Three possible explanations are: • If the lava-fountaining phase of eruption occurred during a time of sustained wind blowing from west to east, most cinders could have been blown eastward creating the asymmetrical shape of Red Mountain. However, eruptions of the type that (40) built Red Mountain usually last several years to a decade or longer, and it seems unlikely that a westerly wind could have persisted for such a period of time. • Perhaps the conduit through which magma rose to the surface was inclined eastward enough to give the same effect as a westerly wind, but this seems unlikely because the driving force for rising magma is the buoyancy of very hot volcanic (45) gases. Like a cork released in water, such gases tend to rise vertically rather than follow an inclined path. • The most likely possibility is that the waning-stage lava flow of the Red Mountain eruption rafted the western section of the cinder cone away, like wood on flowing water. When gas-poor molten lava burrows its way outward beneath a cinder cone, (50) it may either leave the cone undisturbed or carry pieces piggyback, literally floating pieces on the surface of the denser lava. Many examples of both situations are known worldwide; a spectacular example of rafting is found at Sunset Crater National Monument, northeast of Flagstaff. At Red Mountain, geologists have discovered several outcrops of layered cinder deposits, (25) some of which are hundreds of feet wide and tens of feet thick, at the top of the lava flow. Typically, these 'floaters' form hills on the surface of an otherwise fairly flat flow. Apparently, molten lava oozed out beneath the west base of Red Mountain and rafted away much of that side of the cinder cone, creating its U shape.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "unconvincing",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "almost completely persuasive",
+                    "isAnswer": true
+                },  
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "not tenable because based on evidence not applicable to the case of the Red Mountain cinder cone",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "ingenious but almost entirely speculative",
+                    "isAnswer": true
+                },  
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "reasonably convincing but based to some extent on conjecture and on compari-sons with similar phenomenon",
+                    "isAnswer": true
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1028,
+            "name": "An 'ideal' cinder cone forms when eruption occurs on flat ground. From deep within the Earth, magma charged with gas (like a carbonated drink) rises through a vertical pipe-shaped conduit and erupts as a fountain of frothy lava that may spray Line as high as 2,000 feet into the air. As an individual blob of this frothy molten rock flies (5) through the air, it cools quickly enough to solidify before falling back to Earth. Many gas bubbles remain trapped in the fragments. If small, these fragments of rock are called 'cinders,' and if larger, 'bombs.' As eruption continues, cinders accumulate to form a conical hill. Periodically, the flanks of the growing hill may become so steep that lobes and sheets of cinders slide downward. When lava fountaining ends, a sym - (10) metrical cone-shaped hill, commonly indented by a summit crater, has been added to the landscape. Internally, the cone is a pile of loose cinders in layers that dip away from the volcano's vent in all directions. During the waning stage of an ideal cinder-cone eruption, the magma has lost most of its gas content. This gasdepleted magma does not fountain but oozes qui- (15) etly into the crater or beneath the base of the cone as lava. Because it contains so few gas bubbles, the molten lava is denser than the bubble-rich cinders. Thus, it burrows out along the bottom of the cinder cone, lifting the less-dense cinders like a cork on water, and advances outward, creating a lava flow around the cone's base. When the eruption ends, a symmetrical cone of cinders sits at the center of a surrounding pad (20) of lava. Field studies conducted by U.S. Geological Survey and Northern Arizona Univer-sity scientists suggest that Red Mountain grew on a nearly flat surface that may have sloped gently to the north. However, little else about this volcano mimics the fea-tures of an ideal cinder cone. When viewed from above, Red Mountain is a U-shaped (25) landform open to the west, rather than a symmetrical cone. The base of the U is a curving ridge that forms the highest part of the mountain. The nearly half-milelong arms of the U slope down to the west and merge with the gently rolling surface of the Red Mountain lava flow. By carefully measuring the orientation of cinder layers over all parts of Red (30) Mountain, geologists have mapped a radial pattern of layers, dipping away from the middle of the U in all directions. At the amphitheater, all the exposed layers dip uniformly to the northeast. This pattern indicates that the vent is somewhere in the middle of the U and not at the amphitheater The shape of Red Mountain and its overall pattern of cinder layers raises the (35) question of why a symmetrical cone was not created around the vent at the center of the U. Three possible explanations are: • If the lava-fountaining phase of eruption occurred during a time of sustained wind blowing from west to east, most cinders could have been blown eastward creating the asymmetrical shape of Red Mountain. However, eruptions of the type that (40) built Red Mountain usually last several years to a decade or longer, and it seems unlikely that a westerly wind could have persisted for such a period of time. • Perhaps the conduit through which magma rose to the surface was inclined eastward enough to give the same effect as a westerly wind, but this seems unlikely because the driving force for rising magma is the buoyancy of very hot volcanic (45) gases. Like a cork released in water, such gases tend to rise vertically rather than follow an inclined path. • The most likely possibility is that the waning-stage lava flow of the Red Mountain eruption rafted the western section of the cinder cone away, like wood on flowing water. When gas-poor molten lava burrows its way outward beneath a cinder cone, (50) it may either leave the cone undisturbed or carry pieces piggyback, literally floating pieces on the surface of the denser lava. Many examples of both situations are known worldwide; a spectacular example of rafting is found at Sunset Crater National Monument, northeast of Flagstaff. At Red Mountain, geologists have discovered several outcrops of layered cinder deposits, (25) some of which are hundreds of feet wide and tens of feet thick, at the top of the lava flow. Typically, these 'floaters' form hills on the surface of an otherwise fairly flat flow. Apparently, molten lava oozed out beneath the west base of Red Mountain and rafted away much of that side of the cinder cone, creating its U shape.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "-9",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "-7",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "6",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "8",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1030,
+            "name": "An 'ideal' cinder cone forms when eruption occurs on flat ground. From deep within the Earth, magma charged with gas (like a carbonated drink) rises through a vertical pipe-shaped conduit and erupts as a fountain of frothy lava that may spray Line as high as 2,000 feet into the air. As an individual blob of this frothy molten rock flies (5) through the air, it cools quickly enough to solidify before falling back to Earth. Many gas bubbles remain trapped in the fragments. If small, these fragments of rock are called 'cinders,' and if larger, 'bombs.' As eruption continues, cinders accumulate to form a conical hill. Periodically, the flanks of the growing hill may become so steep that lobes and sheets of cinders slide downward. When lava fountaining ends, a sym - (10) metrical cone-shaped hill, commonly indented by a summit crater, has been added to the landscape. Internally, the cone is a pile of loose cinders in layers that dip away from the volcano's vent in all directions. During the waning stage of an ideal cinder-cone eruption, the magma has lost most of its gas content. This gasdepleted magma does not fountain but oozes qui- (15) etly into the crater or beneath the base of the cone as lava. Because it contains so few gas bubbles, the molten lava is denser than the bubble-rich cinders. Thus, it burrows out along the bottom of the cinder cone, lifting the less-dense cinders like a cork on water, and advances outward, creating a lava flow around the cone's base. When the eruption ends, a symmetrical cone of cinders sits at the center of a surrounding pad (20) of lava. Field studies conducted by U.S. Geological Survey and Northern Arizona Univer-sity scientists suggest that Red Mountain grew on a nearly flat surface that may have sloped gently to the north. However, little else about this volcano mimics the fea-tures of an ideal cinder cone. When viewed from above, Red Mountain is a U-shaped (25) landform open to the west, rather than a symmetrical cone. The base of the U is a curving ridge that forms the highest part of the mountain. The nearly half-milelong arms of the U slope down to the west and merge with the gently rolling surface of the Red Mountain lava flow. By carefully measuring the orientation of cinder layers over all parts of Red (30) Mountain, geologists have mapped a radial pattern of layers, dipping away from the middle of the U in all directions. At the amphitheater, all the exposed layers dip uniformly to the northeast. This pattern indicates that the vent is somewhere in the middle of the U and not at the amphitheater The shape of Red Mountain and its overall pattern of cinder layers raises the (35) question of why a symmetrical cone was not created around the vent at the center of the U. Three possible explanations are: • If the lava-fountaining phase of eruption occurred during a time of sustained wind blowing from west to east, most cinders could have been blown eastward creating the asymmetrical shape of Red Mountain. However, eruptions of the type that (40) built Red Mountain usually last several years to a decade or longer, and it seems unlikely that a westerly wind could have persisted for such a period of time. • Perhaps the conduit through which magma rose to the surface was inclined eastward enough to give the same effect as a westerly wind, but this seems unlikely because the driving force for rising magma is the buoyancy of very hot volcanic (45) gases. Like a cork released in water, such gases tend to rise vertically rather than follow an inclined path. • The most likely possibility is that the waning-stage lava flow of the Red Mountain eruption rafted the western section of the cinder cone away, like wood on flowing water. When gas-poor molten lava burrows its way outward beneath a cinder cone, (50) it may either leave the cone undisturbed or carry pieces piggyback, literally floating pieces on the surface of the denser lava. Many examples of both situations are known worldwide; a spectacular example of rafting is found at Sunset Crater National Monument, northeast of Flagstaff. At Red Mountain, geologists have discovered several outcrops of layered cinder deposits, (25) some of which are hundreds of feet wide and tens of feet thick, at the top of the lava flow. Typically, these 'floaters' form hills on the surface of an otherwise fairly flat flow. Apparently, molten lava oozed out beneath the west base of Red Mountain and rafted away much of that side of the cinder cone, creating its U shape.",
+           "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": " a university geology professor writing in a general geology journal",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "a graduate student summarizing a research paper she wrote for a graduate level geology seminar",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "a volcanologist writing in a specialist volcanology journal",
+                    "isAnswer": false
+                }  ,
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "a professional geologist writing in a magazine aimed at interested laypersons",
+                    "isAnswer": false
+                }  ,
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "a layperson who has studied the literature on cinder cones and who has reached a conclusion about how Red Mountain formed",
+                    "isAnswer": false
+                }  
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+
+    ]
+}

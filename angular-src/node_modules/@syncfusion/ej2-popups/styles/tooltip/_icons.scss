@@ -1,0 +1,7 @@
+@include export-module('tooltip-icons') {
+  /*! component icons */
+  .e-tooltip-close::before {
+    content: '\e7e9';
+    font-size: 16px;
+  }
+}

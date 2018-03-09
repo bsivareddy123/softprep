@@ -1,0 +1,88 @@
+.body {
+    background: #d2d6de;
+}
+.lockscreen-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.forgot-password {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid lightblue;
+}
+.lockscreen-item {
+    border-radius: 4px;
+    padding: 5px;
+    background: #fff;
+    position: relative;
+    margin: 32px auto 30px auto;
+    width: 290px;
+    border: 3px solid #337ab7;
+}
+.lockscreen-image {
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -18px;
+    background: #fff;
+    padding: 5px;
+    z-index: 10;
+    border: 3px solid #337ab7;
+}
+.lockscreen-credentials {
+    margin-left: 70px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -1px;
+}
+
+.lockscreen-image {
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    background: #fff;
+    padding: 5px;
+    z-index: 10;
+}
+.lockscreen-image > img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.forgot-password[_ngcontent-blb-8] {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: white;
+}
+.text-center {
+    text-align: center;
+    color: white;
+}
+a {
+    color: #62da64 !important;
+    text-decoration: none;
+}
+
+   
+
+  

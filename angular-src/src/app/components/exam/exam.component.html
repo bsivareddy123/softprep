@@ -1,0 +1,153 @@
+<div class="container">
+  <div class="col-md-8" style="padding: 49px;
+  border-bottom: 1px solid darkgrey;">
+     
+    </div>
+  
+  <div class="col-md-4 button" >
+      <button class="btn" id="prev-question-button" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);" style="border-radius: 4px">&laquo; Prev</button>
+      <button class="btn" id="next-question-button" (click)="goTo(pager.index + 1);" style="border-radius: 4px">Next &raquo; </button>
+      <a routerLink="/section">go to &raquo;</a>
+     
+     <!-- <button class="btn btn-primary" *ngIf="config.allowBack" (click)="goTo(0);">First</button>  
+      <button class="btn btn-primary" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button> -->
+  
+  </div>
+  
+  
+  
+  <div class="row">
+    <div class="col-md-4" style="padding: 20px;">
+        <p class="text-sm-center">Section 1 of 6</p> 
+    </div>
+    <div class="col-md-4" style="padding: 20px;">
+        <p>Question {{pager.index + 1}} of {{pager.count}}.</p>
+    </div>
+    <div class="col-md-4" style="padding: 20px;">
+      <span *ngIf="show">
+        {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}}
+    </span> 
+    <button type="button" class="btn btn-primary" (click)="show=!show">{{show ? 'Hide' : 'Show'}}</button>
+      <span *ngIf="calc">
+        <div class="container calc-card mdl-card mdl-shadow--2dp">  
+          <div class="buttons">
+            <div class="row">
+              <div class="mdl-textfield mdl-js-textfield">
+                <input id="calc-output" class="mdl-textfield__input" type="text" value="0" maxlength="9" disabled />
+              </div>
+            </div>
+            <div class="row">
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">AC</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">+/-</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">%</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">/</button>
+            </div>
+            <div class="row">
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">7</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">8</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">9</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">X</button>
+            </div>
+            <div class="row">
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">4</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">5</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">6</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">&#8211;</button>
+            </div>
+            <div class="row">
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">1</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">2</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">3</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">+</button>
+            </div>
+            <div class="row">
+              <button class="calc-button calc-button-long num-button num-button-long mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">0</button>
+              <button class="calc-button num-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">.</button>
+              <button class="calc-button op-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">=</button>
+            </div>
+          </div>
+        </div>
+    </span> 
+     <button type="button" class="btn btn-primary" class="btn btn-primary" (click)="calc=!calc">{{calc ? 'Hide Calc' : 'Show Calc'}}</button>
+    
+    </div>
+  </div>
+  
+  <div class="col-md-12">
+    
+        <button class="btn btn-primary" (click)="mode = 'quiz'">Quiz</button>
+        <button class="btn btn-primary" (click)="mode = 'review'">Review</button>
+       <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button>
+  
+  </div>
+  
+  
+  
+  
+  <div class="row">
+    
+      
+    </div>
+    <div id="quiz">
+     
+      <hr />
+    
+      <div *ngIf="mode=='quiz' && quiz">
+        <div *ngFor="let question of filteredQuestions;">
+        
+          <div class="col-md-12">
+            <div class="col-md-6" style="height: 300px; overflow-y: auto">
+                <p>{{pager.index + 1}}. <span [innerHTML]="question.name" style="text-align: justify;
+                  line-height: 26px;height: 100px"></span></p>
+            </div>
+  
+            <div class="row text-left options">
+                <div class="col-md-6" *ngFor="let option of question.options">
+                  <div class="option">
+                    <label class="" [attr.for]="option.id">
+                        <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected" (change)="onSelect(question, option);" />
+                        {{option.name}}
+                    </label>
+                  </div>
+                </div>
+              </div>
+  
+        </div>
+  
+        </div>
+       
+        <div class="text-sm-center">
+          
+          <!--<pagination *ngIf="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>-->
+        </div>
+      </div>
+    
+      <div class="row review" *ngIf="mode=='review'">
+        <div class="col-sm-4" *ngFor="let question of quiz.questions; let index = index;">
+          <div (click)="goTo(index)" class="{{ isAnswered(index) == 'Answered'? 'answered': 'not-answered' }}">{{index + 1}}. {{ isAnswered(index) }}</div>
+        </div>
+      </div>
+      <div class="result" *ngIf="mode=='result'">
+        <div *ngFor="let question of quiz.questions; let index = index">
+          <div class="result-question">
+            <p>{{index + 1}}. {{question.name}}</p>
+            <div class="row">
+              <div class="col-md-6" *ngFor="let Option of question.options">
+                <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
+              </div>
+            </div>
+            <div class="alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div>
+          </div>
+        </div>
+        <p class="alert alert-info text-sm-center">You may close this window now.</p>
+      </div>
+    
+      <div *ngIf="mode!='result'">
+       
+      </div>
+    </div>
+  
+  
+  </div>
+  
+ 

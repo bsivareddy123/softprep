@@ -1,0 +1,64 @@
+[
+    {
+        "title": "integers",
+        "name": "The integers are the numbers 1, 2, 3, and so on, together with their negatives,-1,-2,-3…… and 0.",
+        "name1": "Thus , the set of integers is {…….,-3,-2,-1,0,1,2,3,……}",
+        "name2": "The positive integers are greater than 0, the negative integers are less than 0, and 0 is neither positive nor negative.",
+        "name3": "When integers are added, subtracted, or multiplied, the result is always an integer",
+        "name4": "The product of two positive integers is a positive integer.",
+        "name5": "The product of two negative integers is a positive integer.",
+        "name6": "The product of a positive integer and a negative integer is a negative integer. "
+    },
+    {
+        "title": "fractions",
+        "name": "A fraction is a number of the form ,/( {a /over b}/)where a and b are integers The integer a is called the numerator of the fraction, and b is called the denominator. ",
+        "name1": "For example, /( {-7/over5}/) is a fraction in which is the numerator and 5 is the denominator. Such numbers are also called rational numbers. ",
+        "name2": "If both the numerator a and denominator b are multiplied by the same nonzero integer, the resulting fraction will be equivalent to ./({a /over b}/) For example",
+        "test1": "/({-7 /over 5}/)=/( {-(-7)(4)/over (5)(4)}/)",
+        "name3": "A fraction with a negative sign in either the numerator or denominator can be written with the negative sign in front of the fraction; for example",
+        "test2": "/({-7 /over 5}/)=/({7 /over -5}/)=- /( {7 /over 5}/)",
+        "name4": "If both the numerator and denominator have a common factor, then the numerator and denominator can be factored and reduced to an equivalent fraction. For example,",
+        "test3": "/({40 /over 72}/)=/({(8)(5) /over (8)(9)}/)=/({5 /over 9}/)",
+        "name5": "To add two fractions with the same denominator, you add the numerators and keep the same denominator. For example,",
+        "test4": "-/( {8 /over 11}/)+/( {3 /over 11}/)=/({-8+3 /over 11}/)=/({5 /over 11}/)",
+        "name6": "To add two fractions with different denominators, first find a common denominator, which is a common multiple of the two denominators. Then convert both fractions to equivalent fractions with the same denominator. Finally, add the numerators and keep the common denominator. For example, to add the fractions",
+        "test5": "/( {1 /over 3}/)and -/({2 /over 5}/)",
+        "test6": "/({1 /over 3}/)+/({-2 /over 5}/)=/(({1 /over 3})/)({5 /over 5})/)+/(({-2 /over 5})/)/(({3 /over 3})/)=/({5 /over 15}/)+/({-6 /over 15}/)=/({5+(-6) /over 15}/)=/({-1 /over 15}/)",
+        "name7": "The same method applies to subtraction of fractions.",
+        "name8": "To multiply two fractions, multiply the two numerators and multiply the two denominators. For example,",
+        "test7": "/(({10/over 7})/)/(({-1 /over 3})/)=/({(10)(-1) /over (7)(3)}/)=/({-10 /over 21}/)",
+        "name9": "To divide one fraction by another, first invert the second fraction—that is, find its reciprocal—then multiply the first fraction by the inverted fraction. For example,",
+        "test8": "/({17 /over 8}/)÷/({3 /over 4}/)=/(({17 /over 8})/)/(({4 /over 3})/)=/({17 /over 6}/)"
+    },
+    {
+        "title": "Decimals",
+        "name": "The decimal number system is based on representing numbers using powers of 10. The place value of each digit corresponds to a power of 10. For example, the digits of the number 7,532.418 have the following place values.",
+        "image": "<img src ='http://softprep.in/images/1.4.1.png'>",
+        "name1": "If there are a finite number of digits to the right of the decimal point, converting a decimal to an equivalent fraction with integers in the numerator and denominator is a straightforward process. Since each place value is a power of 10, every decimal can be converted to an integer divided by a power of 10. For example,",
+        "test1": "2.3=2+/({3 /over 10}/)",
+        "test2": "0.612=/({612 /over 1000}/)",
+        "name2": "Conversely, every fraction with integers in the numerator and denominator can be converted to an equivalent decimal by dividing the numerator by the denominator using long division,The decimal that results from the long division will either terminate, as in /({1 /over 4}/)=0.25 or the decimal will repeat without end, as in /({1 /over 9}/)=0.1111.....,/({1 /over 22}/)=0.0454545.....One way to indicate the repeating part of a decimal that repeats without end is to use a bar over the digits that repeat. Here are some examples of fractions converted to decimals.",
+        "test3": "/({3 /over 8}/)=0.375",
+        "test4": "/({259 /over 40}/)=6+/({19 /over 40}/)=6.475",
+        "test5": "/({1 /over 3}/)=0.33333......",
+        "name3": "Every fraction with integers in the numerator and denominator is equivalent to a decimal that terminates or repeats. That is, every rational number can be expressed as a terminating or repeating decimal. The converse is also true; that is, every terminating or repeating decimal represents a rational number.",
+        "name4": "Not all decimals are terminating or repeating; for instance, the decimal that is equivalent to /({ /sqrt{2} }/) is 1.41421356237...and it can be shown that this decimal does not terminate or repeat. Another example is 0.010110111011110..........which has groups of consecutive 1’s separated by a 0, where the number of 1’s in each successive group increases by one. Since these two decimals do not terminate or repeat, they are not rational numbers. Such numbers are called irrational numbers."
+
+    },
+    {
+        "title": "Order of Arithmetic Operations:",
+        "name": "when performing a series of operation",
+        "name1": "(i.e. Addition , Subtraction , Division , Multiplication , Exponents)",
+        "name2": "You must perform those operations in a particular order.",
+        "name3": "There is a mnemonic to help you remember the order –PEDMAS.",
+        "name4": "*P- Parenthesis, like (),[],{} etc…",
+        "name5": "*E-Exponents",
+        "name6": "*D-division",
+        "name7": "*M-Multiplication",
+        "name8": "*A-Addition",
+        "name9": "*S-Subtraction",
+        "name10": "Parenthesis or Brackets order:-Simplification should be done first on the true’s in the inner most bracket () followed by flower bracket {} followed by [ ] square bracket"
+
+    }
+   
+]

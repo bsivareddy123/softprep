@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Syncfusion" />
+  <title>GT SoftPrep | Log in</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Sedgwick+Ave+Display" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="systemjs.config.js"></script>
+  <!-- Font Awesome -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="//connect.facebook.net/en_US/sdk.js"></script>
+  <script src="assets/js/jquery.bpopup.min.js"></script>
+  <script src="assets/js/show.js"></script>
+
+
+  <script src="assets/js/custom.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+  <script src="assets/js/adminlte.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/Admin.css">
+  <link rel="stylesheet" href="assets/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="assets/css/skin-blue.min.css">
+
+
+  <link rel="stylesheet" href="styles.css">
+
+  <base href="/">
+  <script>
+    $( document ).ready(function() {
+        $('#popup_this').bPopup();
+    });
+    </script>
+<script type="text/javascript">
+  
+  function popup(url) 
+  {
+   params  = 'width='+screen.width;
+   params += ', height='+screen.height;
+   params += ', top=0, left=0'
+   params += ', fullscreen=yes';
+  
+   newwin=window.open(url,'windowname4', params);
+   if (window.focus) {newwin.focus()}
+   return false;
+  }
+  </script>
+
+ <script>
+  $('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+  });
+
+  $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+  });
+ </script>
+   <script>
+    $.widget.bridge('uibutton', $.ui.button);
+  </script>
+  <!-- hide and show password  -->
+ <script type="text/javascript">
+	$("#password").password('toggle');
+</script>
+
+<!--    portfolio  JS  =================    -->
+<script>     
+$(function() {
+		var selectedClass = "";
+		$(".fil-cat").click(function(){ 
+		selectedClass = $(this).attr("data-rel"); 
+     $("#portfolio").fadeTo(100, 0.1);
+		$("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn().addClass('scale-anm');
+      $("#portfolio").fadeTo(300, 1);
+    }, 300); 
+		
+	});
+});
+
+</script>
+<body>
+
+  <app-root >
+     <!-- <div class="container" style="position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+        </div> -->
+  </app-root>
+ 
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>

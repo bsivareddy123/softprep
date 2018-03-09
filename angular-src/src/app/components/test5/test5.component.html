@@ -1,0 +1,311 @@
+<div class="container" style="background: white;
+box-shadow: 0px 0px 23px 1px darkgrey;">
+  
+  <div class="shadow" style="position: relative;padding: 41px;border-bottom: 1px solid #a9a9a947;">
+     
+   <div class="col-md-8">
+         
+       
+   </div>
+      
+     
+   <div class="col-md-4 button" >
+        
+    <button class="btn" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">&laquo; Prev</button>
+         
+   <button class="btn" (click)="goTo(pager.index + 1);">Next &raquo; </button>
+   <a routerLink ="/test6"><button class="btn">Finished &raquo; </button></a>
+         
+         <!-- <button class="btn btn-primary" *ngIf="config.allowBack" (click)="goTo(0);">First</button>  
+          <button class="btn btn-primary" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button> -->
+      
+      </div>
+    </div>
+      
+      
+      <div class="row">
+        <div class="col-md-4" style="padding: 20px; font-weight: bold;font-family:sans-serif;">
+            <p class="text-sm-center">Section 5 of 6</p> 
+        </div>
+        <div class="col-md-4" style="padding: 20px;">
+            <p class="badge badge-info">Question {{pager.index + 1}} of {{pager.count}}.</p>
+        </div>
+        <div class="col-md-4" style="padding: 20px;">
+          <span *ngIf="show" style="font-family:sans-serif;">
+            {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}}
+        </span> 
+        <button type="button" class="btn btn-primary" (click)="show=!show">{{show ? 'Hide' : 'Show'}}</button>
+          <span *ngIf="calc">
+            <div id="calculator">
+              <div class="display">
+                <div class="main">{{ display }}</div>
+                <div class="sub">{{ subDisplay }}</div>
+              </div>
+              <div class="clearfix controlPanel">
+                <div class="numbers f_l">
+                  <div>
+                    <span (click)="buildNumber('7')">7</span>
+                    <span (click)="buildNumber('8')">8</span>
+                    <span (click)="buildNumber('9')">9</span>
+                  </div>
+                  <div>
+                    <span (click)="buildNumber('4')">4</span>
+                    <span (click)="buildNumber('5')">5</span>
+                    <span (click)="buildNumber('6')">6</span>
+                  </div>
+                  <div>
+                    <span (click)="buildNumber('1')">1</span>
+                    <span (click)="buildNumber('2')">2</span>
+                    <span (click)="buildNumber('3')">3</span>
+                  </div>
+                  <div>
+                    <span (click)="buildNumber('0')">0</span>
+                    <span (click)="buildNumber('.')">.</span>
+                  </div>
+                </div>
+                <div class="operation f_l">
+                  <span (click)="selectOperator('/')" id="division">/</span>
+                  <span (click)="selectOperator('*')" id="multiplication">X</span>
+                  <span (click)="selectOperator('+')" id="addition">+</span>
+                  <span (click)="selectOperator('-')" id="subtraction">-</span>
+                </div>
+                <span id="equalTo" (click)="showResult()">=</span>
+              </div>
+              <div (click)="calculate()" id="calculate"></div>
+            </div>
+        </span> 
+         <button type="button" class="btn btn-primary" class="btn btn-primary" (click)="calc=!calc">{{calc ? 'Hide Calc' : 'Show Calc'}}</button>
+        
+        </div>
+      </div>
+      
+      <div class="col-md-12">
+        
+          <button class="btn btn-primary" (click)="mode = 'quiz'">Quick Test</button>
+          <!--  <button class="btn btn-primary" (click)="mode = 'review'">Review</button>
+           <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button> -->
+
+          <button class="btn btn-primary">Exit Section</button>
+          <button class="btn btn-primary">Pause</button>
+          <button class="btn btn-primary" style="padding: 5px 10px !important">Mark<input type="checkbox"></button> 
+          <button class="btn btn-primary">Review</button>
+          <button class="btn btn-primary" (click)="onSubmit();">Submit Test</button>
+      
+      </div>
+      
+      
+      
+      
+      <div class="row">
+        
+          
+        </div>
+        <div id="quiz">
+         
+          <hr />
+        
+          <div *ngIf="mode=='quiz' && quiz" style="height: 300px;background: white;">
+            
+              <div *ngFor="let question of filteredQuestions;">
+                 
+                  <div class="col-md-12">
+                      <div *ngIf="question.questionTypeId == 1">
+                      <div class="col-md-6" style="height: 242px;
+                      overflow-y: auto;
+                      font-family:sans-serif;
+                      font-size: 14px;
+                      border-right: 2px dotted cornflowerblue;
+                      position: relative;
+                      top: 17px;">
+                     
+                          <p>{{pager.index + 1}} .<span [innerHTML]="question.title"></span>
+                              <span [innerHTML]="question.name" style="text-align: justify;
+                               line-height: 26px;height: 100px"></span>
+                          </p>
+                      
+                      </div>
+                    </div>
+            
+                      <div class="row text-left options">
+                          <div class="col-md-6" *ngFor="let option of question.options">
+                              <div *ngIf="question.questionTypeId == 1">
+                              <div class="option">
+                                <label class="" [attr.for]="option.id">
+                                    <div class="pract radio i-checks">
+                                        <label>
+                                           <input id="{{option.id}}" type="checkbox" name="radio" class="radioS" [(ngModel)]="option.selected" (change)="onSelect(question, option);"><i></i>
+                                             {{option.name}}
+                                        </label>
+                                     </div>
+                                  
+                                </label>
+                              </div>
+                            </div>
+                            </div>
+
+                          
+
+                            <div *ngIf="question.questionTypeId == 2">
+                            <div *ngFor="let question of filteredQuestions;">
+                                <div class="col-md-12">
+                                    <p>{{pager.index + 1}} .<span [innerHTML]="question.title"></span>
+                                        <span [innerHTML]="question.name" style="text-align: justify;
+                                         line-height: 26px;height: 100px;font-family: sans-serif;"></span>
+                                    </p>
+                                  </div>
+                          <div class="row text-blank-t-m" *ngFor="let option of question.options">
+
+                            <!--  box type   -->
+                             
+                              <div style="margin-bottom: 10px;" class="col-sm-6 options">
+                                <h5 class="text-center m-b">Blank A</h5>
+                                <input type="radio" name="radioDouble" class="radioD" id="111-1" data-value="<p>nomenclature&amp;nbsp;</p>">
+                                <label for="111-1"> <p style="text-align: center">{{option.name}}&nbsp;</p></label>
+                                <input type="radio" name="radioDouble" class="radioD" id="111-2" data-value="<p>pathological&amp;nbsp;</p>">
+                                <label for="111-2"> <p style="text-align: center">{{option.name}}&nbsp;</p></label>
+                                <input type="radio" name="radioDouble" class="radioD" id="111-3" data-value="<p>research</p>">
+                                <label for="111-3"> <p style="text-align: center">{{option.name}}</p></label>
+                              </div>
+                              <div class="col-sm-6 options">
+                                <h5 class="text-center m-b">Blank B</h5>
+                                <input type="radio" name="radioDouble1" class="radioD1" id="111-D1" data-value="<p>symbiotic</p>">
+                                <label for="111-D1"> <p style="text-align: center">{{option.name}}</p></label>
+                                <input type="radio" name="radioDouble1" class="radioD1" id="111-D2" data-value="<p>hierarchies</p>">
+                                <label for="111-D2"> <p style="text-align: center">{{option.name}}</p></label>
+                                <input type="radio" name="radioDouble1" class="radioD1" id="111-D3" data-value="<p>decorous</p>">
+                                <label for="111-D3"> <p style="text-align: center">{{option.name}}</p></label>
+                              </div>
+                              </div>
+                            </div>
+                         </div>
+
+                         <div *ngIf="question.questionTypeId == 3">
+                            <div *ngFor="let question of filteredQuestions;">
+                                <div class="col-md-12">
+                                    <p>{{pager.index + 1}} .<span [innerHTML]="question.title"></span>
+                                        <span [innerHTML]="question.name" style="text-align: justify;
+                                         line-height: 26px;height: 100px;font-family: sans-serif;"></span>
+                                    </p>
+                                  </div>
+                          <div class="row text-blank-t-m" *ngFor="let option of question.options">
+
+                            <!--  box type   -->
+                             
+                              <div style="margin-bottom: 10px;" class="col-sm-4 options">
+                                <h5 class="text-center m-b">Blank A</h5>
+                                <input type="radio" name="radioDouble" class="radioD" id="111-1" data-value="<p>nomenclature&amp;nbsp;</p>">
+                                <label for="111-1"> <p style="text-align: center">{{option.name}}&nbsp;</p></label>
+                                <input type="radio" name="radioDouble" class="radioD" id="111-2" data-value="<p>pathological&amp;nbsp;</p>">
+                                <label for="111-2"> <p style="text-align: center">{{option.name}}&nbsp;</p></label>
+                                <input type="radio" name="radioDouble" class="radioD" id="111-3" data-value="<p>research</p>">
+                                <label for="111-3"> <p style="text-align: center">{{option.name}}</p></label>
+                              </div>
+                              <div class="col-sm-4 options">
+                                <h5 class="text-center m-b">Blank B</h5>
+                                <input type="radio" name="radioDouble1" class="radioD1" id="111-D1" data-value="<p>symbiotic</p>">
+                                <label for="111-D1"> <p style="text-align: center">{{option.name}}</p></label>
+                                <input type="radio" name="radioDouble1" class="radioD1" id="111-D2" data-value="<p>hierarchies</p>">
+                                <label for="111-D2"> <p style="text-align: center">{{option.name}}</p></label>
+                                <input type="radio" name="radioDouble1" class="radioD1" id="111-D3" data-value="<p>decorous</p>">
+                                <label for="111-D3"> <p style="text-align: center">{{option.name}}</p></label>
+                              </div>
+                              <div class="col-sm-4 options">
+                                  <h5 class="text-center m-b">Blank C</h5>
+                                  <input type="radio" name="radioTriple2" class="radioD2" id="1055-T1" data-value="<p>adverse</p>">
+                                  <label for="1055-T1"> <p style="text-align: center">{{option.name}}</p></label>
+                                  <input type="radio" name="radioTriple2" class="radioD2" id="1055-T2" data-value="<p>asinine</p>">
+                                  <label for="1055-T2"> <p style="text-align: center">{{option.name}}</p></label>
+                                  <input type="radio" name="radioTriple2" class="radioD2" id="1055-T3" data-value="<p>advantageous</p>">
+                                  <label for="1055-T3"> <p style="text-align: center">{{option.name}}</p></label>
+                                </div>
+                              </div>
+                            </div>
+                         </div>
+     
+                      
+                         <div *ngIf="question.questionTypeId == 4">
+                            <div *ngFor="let question of filteredQuestions;">
+                                <div class="col-md-12">
+                                    <p>{{pager.index + 1}} .<span [innerHTML]="question.title"></span>
+                                        <span [innerHTML]="question.name" style="text-align: justify;
+                                         line-height: 26px;height: 100px;font-family: sans-serif;"></span>
+                                    </p>
+                                  </div>
+                          <div class="row text-blank-t-m" *ngFor="let option of question.options">
+
+                            <!--  box type   -->
+                             
+                            <div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                                <div class="row text-blank-t-m">
+                                  <div class="col-sm-12 options">
+                                    
+                                      <input type="radio" name="radioSingle" class="radioS" id="1051-1" data-value="<p>supporting</p>">
+                                      <label for="1051-1"> <p style="text-align: center">supporting</p></label>
+                                      <input type="radio" name="radioSingle" class="radioS" id="1051-2" data-value="<p>leading</p>">
+                                      <label for="1051-2"> <p style="text-align: center">leading</p></label>
+                                      <input type="radio" name="radioSingle" class="radioS" id="1051-3" data-value="<p>dramatic</p>">
+                                      <label for="1051-3"> <p style="text-align: center" >dramatic</p></label>
+                                      <input type="radio" name="radioSingle" class="radioS" id="1051-4" data-value="<p>comedic</p>">
+                                      <label for="1051-4"> <p style="text-align: center">comedic</p></label>
+                                      <input type="radio" name="radioSingle" class="radioS" id="1051-5" data-value="<p>musical</p>">
+                                      <label for="1051-5"> <p style="text-align: center">musical</p></label>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            
+                             
+                             
+                              </div>
+                            </div>
+                         </div>
+
+
+
+                        </div>
+            
+                
+                </div>
+           
+            <div class="text-sm-center">
+              
+              <!--<pagination *ngIf="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>-->
+            </div>
+          </div>
+        
+         
+      
+        
+         
+        </div>
+        
+          <div class="row review" *ngIf="mode=='review'">
+            <div class="col-sm-4" *ngFor="let question of quiz.questions; let index = index;">
+              <div (click)="goTo(index)" class="{{ isAnswered(index) == 'Answered'? 'answered': 'not-answered' }}">{{index + 1}}. {{ isAnswered(index) }}</div>
+            </div>
+          </div>
+      <div class="result" *ngIf="mode=='result'">
+              <h2>Quiz Result</h2>
+              <div *ngFor="let question of quiz.questions; let index = index">
+                <div class="result-question">
+                  <h4>{{index + 1}}. {{question.name}}</h4>
+                  <div class="row">
+                    <div class="col-md-6" *ngFor="let Option of question.options">
+                      <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
+                    </div>
+                  </div>
+                  <div class="alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div>
+                </div>
+              </div>
+              <h4 class="alert alert-info text-sm-center">You may close this window now.</h4>
+            </div>  
+        
+          <div *ngIf="mode!='result'">
+           
+          </div> 
+        </div>
+      
+      
+</div>
+      
+     

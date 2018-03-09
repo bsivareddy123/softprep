@@ -1,0 +1,50 @@
+{
+  "name": "softprep",
+  "version": "1.0.0",
+  "description": "Educational app",
+  "keywords": [
+    "node.js",
+    "express.js",
+    "facebook-login"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "^0.1.1",
+    "cors": "*",
+    "express": "*",
+    "express-jwt": "^5.3.0",
+    "express-jwt-token": "^0.1.5",
+    "express-session": "^1.15.6",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^7.4.3",
+    "jwt-express": "^1.1.0",
+    "mlab-data-api": "^0.2.2",
+    "mongodb": "^3.0.3",
+    "mongodb-stitch": "^3.0.6",
+    "mongoose": "*",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^2.1.0",
+    "ngx-show-hide-password": "^1.2.4",
+    "nodemailer": "^4.4.1",
+    "passport": "*",
+    "passport-facebook": "^2.1.1",
+    "passport-facebook-token": "^3.3.0",
+    "passport-jwt": "*",
+    "req-flash": "0.0.3"
+  },
+  "author": "lokesh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.15.0",
+    "should": "~7.1.0",
+    "mocha": "~2.3.3",
+    "supertest": "~1.1.0"
+  }
+}

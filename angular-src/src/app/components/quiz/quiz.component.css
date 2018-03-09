@@ -1,0 +1,93 @@
+.button{
+    padding: 21px;
+    border-bottom: 1px solid darkgrey;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    width: 95px !important;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500 !important;
+}
+
+.slide {
+    display: none;
+}
+.active-slide {
+    display: block;
+}
+.slider-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+.prev {
+    display: inline-block;
+    margin: 10px;
+}
+.next {
+    display: inline-block;
+    margin: 10px;
+}
+
+input[type=checkbox], input[type=radio] {
+    /* margin: 4px 0 0; */
+    margin-top: 1px\9;
+    line-height: normal;
+    /* border-radius: 78px; */
+    width: 40px !important;
+    height: 20px !important;
+}
+p {
+    margin: 0 0 10px;
+    text-align: justify;
+
+}
+.container {
+    height:auto;
+    width: 100%;
+    padding: 0;
+    background: aliceblue !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #589eda !important;
+    border-color: #589eda !important;
+}
+h1 {
+    color: #57acec;
+    margin-top: 24px; 
+    text-align: center;   
+}    
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.previous{
+    background-color: #f1f1f1f1;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.next{
+    background-color: #4caff0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+textarea {
+    overflow: auto;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+}

@@ -1,0 +1,15 @@
+.btn-success {
+    background-color: #00a65a;
+    border-color: #008d4c;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+.btn-primary {
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+.btn{
+    border-radius: none;
+}

@@ -1,0 +1,824 @@
+{
+    "id": 1,
+    "name": "section1",
+    "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "According to a recent survey, 26 percent of the 2,000 workers at Company X were discontented employees. 20 percent of those discontented had worked at the company for at least ten years. If 40 percent of all the workers have worked at Company X for at least ten years, how many people who had worked at least ten years did not respond that they were discontented with their jobs?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "6/5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "5/6",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "5/24",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "1/5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "1/12",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "When both floodgates A and B are open, a reservoir drains in 3(1/3) days; if floodgate A alone drains the reservoir in 10 days, how many days does it take floodgate B alone to drain the reservoir",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "6(2/3)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "10",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "12",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "1.6 x 0.025=",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "4",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "0.4",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "0.04",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "0.004",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "0.0004",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "In 1990 a total of x earthquakes occurred worldwide some but not all of which occurred in Asia. If m of these earthquakes occurred in Asia, which of the following represents the ratio of the number of earthquakes that occurred in Asia to the number that did not occur in Asia?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "x/m",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "m/x",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "m/(x – m)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "x/(x-m)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "1 – (m/x)",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "If ( x + y ) /xy = 1, then y =",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "x/(x-1)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "x/(x+1)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "(x-1)/x",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "(x+1/x)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "x",
+                    "isAnswer": true
+                }
+            ]
+           
+        },
+        {
+            "id": 1015,
+            "name": "If ½ of the air in a tank is removed with each stroke of a vacuum pump, what fraction of the original amount of air has been removed after 4 strokes ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "15/16",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "7/8",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "¼",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "1/8",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "1/16",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Last year Department Store X had a sales total for December that was 4 times the average (arithmetic mean) of the monthly sales totals for January through November; the sales total for December was what fraction of the sales total for the year?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "¼",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "4/15",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "1/3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "4/11",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "4/5",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "How many integers n are there such that 1 < 5n+5 < 25?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "4",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "1",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "7.8",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "10",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Working alone, printers X, Y and Z can do a certain printing job consisting of a large number of pages, in 12, 15 and 18 hours respectively. What is the ratio of the time it takes printer X to do the job working alone at its rate, to the time it takes printer Y and Z to do the job, working together at their individual rates",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "4/11",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "1/2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "15/22",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "22/15",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "11/4",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "In 1985 a company sold a brand of shoes to retailers for a fixed price per pair. In 1986 the number of pairs of the shoes that the company sold to retailers decreased by 20 percent, while the price per pair increased by 20 percent. If the company’s revenue from the sales of the shoes in 1986 was $3.0 million, what was the approximate revenue from the sale of the shoes in 1985?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "$2.4 million",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "$2.9 million",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "$3.0 million",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "$3.1 million",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "$3.6 million",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1020,
+            "name": "\frac{3*0.072}{0.54}=",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "0.04",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "0.3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "0.4",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "0.8",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "4",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "name": "A car dealer sold x used cars and y new cars during May. If the number of used cars sold was 10 greater than the number of new cars sold, which of the following expresses this relationship?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "x > 10y",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "x>(y+10)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "x>(y-10)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "x = y+10",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "x=y-10",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1022,
+            "name": "The no. of pieces of 1(1/4) feet in 24 feet?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "11",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "18",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "19",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "20",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "30",
+                    "isAnswer": true
+                }
+
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1023,
+            "name": "If each of the two lines l1 and l2 is parallel to line l3. Which of the following must be true?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Lines l1, l2 and l3 lie in the same plane",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Lines l1, l2 and l3 lie in the different plane.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Line l1 is parallel to line l2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Line l1 is the same line as line l2.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "Line l1 is the same line as line l3.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1024,
+            "title": "/(61.24*(0.998)^2 /over /sqrt{403}/)",
+            "name": "The expression above is approximately equal to",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "1",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "4",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "6",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1025,
+            "name": "Car X and car Y travelled the same 80 mile route. If car X took 2 hours and car Y traveled at an average speed that was 50 percent faster than the average speed of car X, how many hours did it take car Y to travel the route?",
+            "questionTypeId": 1,
+            "options": [
+                {   
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "2/3",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "1",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "1-1/3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "1-3/5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "3",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1026,
+            "name": "If the numbers 17/24, ½, 3/8, ¾ and 9/16 were ordered from greatest to least, the middle number of the resulting sequence would be?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "17/24",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "1/2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "3/8",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "3/4",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "9/16",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1027,
+            "title": "<img src='http://softprep.in/images/3%20Q6(1).jpg'>",
+            "name": "<img src='http://softprep.in/images/3%20Q6(2).jpg'>What is the total amount of shelf space that Bakery C has in store X?",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "",
+                    "isAnswer": true
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1028,
+            "title": "<img src='http://softprep.in/images/3%20Q6(1).jpg'>",
+            "name": "<img src='http://softprep.in/images/3%20Q6(2).jpg'>What is the amount of average weekly sales per foot of shelf space for Bakery D?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "$21.88",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "$23.00",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "$30.00",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "$35.00",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "$49.00",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1029,
+            "title":"copmpare the quantities below",
+            "name": "Column A (2x-17)/2                 Column Bx-17",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal.",
+                    "isAnswer": false
+                }  ,
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given",
+                    "isAnswer": false
+                }  
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

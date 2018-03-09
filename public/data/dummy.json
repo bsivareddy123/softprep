@@ -1,0 +1,776 @@
+{
+    "id": 4,
+    "name": "section4",
+    "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "The two sides of a right triangle are 7 and 25. Which of the following could be the length of the third side?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "27",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "/(/sqrt{674}/)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "15",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1010,
+            "name": "If |x| > |y| > |z|, which of the following equation CANNOT hold true?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "x + y = 0",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "y – z = 0",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "xyz = 0",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "x – y = z",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "xyz = 1",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "If a 10 percent deposit that has been paid toward the purchase of a certain product is $ 110, how much more remains to be paid?",
+            "questionTypeId": 3,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "",
+                    "isAnswer": true
+                }
+
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "title":"compare the quantity below",
+            "name": "Column A /(10^{20}/)       Column B    /(20^{10}/)",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "title":"There are 250 people lines up outside a theater. Jack is 25th person from the front and Jill in 125th person from front.",
+            "name": "Column A    The no. of people between Jack and Jill          Column B       22 x 52",
+            "questionTypeId": 2,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given.",
+                    "isAnswer": true
+                }
+               
+            ]
+           
+        },
+        {
+            "id": 1015,
+            "title":"Benjamin worked from 9:47 AM until 12:11 PM. Jeremy worked from 9:11 AM until 12:47 PM",
+            "name": "Column A     The no. of minutes Benjamin worked      Column B        The no. of minutes Jeremy worked",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Last year Department Store X had a sales total for December that was 4 times the average (arithmetic mean) of the monthly sales totals for January through November; the sales total for December was what fraction of the sales total for the year?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "title":"<img src='http://softprep.in/images/3%20Q5.jpg'>",
+            "name": "Line l is parallel to line k   Column A     AB         Column B        CD",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "title":"<img src='http://softprep.in/images/3%20Q6(1).jpg'>",
+            "name": "<img src='http://softprep.in/images/3%20Q6(2).jpg'>    Bakery E’s average weekly sales are what percent of the total average weekly sales of products from the five bakeries in Store X",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "10%",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "14%",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "15%",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "25%",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "It cannot be determined from the information given",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "title":"<img src='http://softprep.in/images/3%20Q6(1).jpg'>",
+            "name": "<img src='http://softprep.in/images/3%20Q6(2).jpg'>    space for Bakeries A and B were reversed and their average weekly sales per foot remained the same, then the total average weekly sales would do which of the following?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Decrease by $220",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Decrease by $95.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Remain unchanged.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Increase by $125.",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "Increase by $345.",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1020,
+            "name": "If x ◊ y = x (x – y), then (-1 ◊ -2) ◊ (1 ◊ 2) = ?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "2",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "1",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "0",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "-1",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "-2",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "name": "A laborer is paid $ 8 per hour for an 8 hour day and 1 ½ times   that rate for each hour in excess of 8 hours in a single day. If the laborer received $ 80 for a single day’s work. How long did he work on that day?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "6 hr 40 min",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "9 hr 30 min",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "9 hr 20 min",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "9 hr 40 min",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "10hr",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1022,
+            "title":"<img src='http://softprep.in/images/3%20Q14.jpg'>",
+            "name": "Column A     a + b + c +d          Column B       e + f + g + h",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column A is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantity in Column B is greater.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The quantities in both the columns are equal.",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "The relationship cannot be determined from the information given",
+                    "isAnswer": true
+                }
+                
+
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1023,
+            "name": "In quadrilateral WXYZ, the measure of angle Z is 10 more than twice the average of the measures of the other three angles. What is the measure of angle Z?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "100",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "105",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "120",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "135",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "150",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1024,
+            "name": "The circumference of circle is a¶ units, and the area of the circle is b¶  square units, If a= b , what is the radius of the circle?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "1",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "¶",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "2¶",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1025,
+            "name": "If A is the area and C the circumference of a circle, which of the following is an expression for A in terms of C?",
+            "questionTypeId": 1,
+            "options": [
+                {   
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "/(c^2/)/4¶",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "/(c^2/)/4/(¶^2/)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "2c",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "/(c^2/sqrt{¶}/)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "/(c^2/sqrt{¶}/)/4  ",
+                    "isAnswer": false
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1026,
+            "name": "A rectangular tank has a base that is 10 centimeters by 5 centimeters and a height of 20 centimeters. If the tank is half full of water. By how many centimeters will the water level rise if 325 cubic centimeters of water are poured into the tank?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "3.25",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "6.5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "16.25",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "32.5",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "65",
+                    "isAnswer": false
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1027,
+            "name": "If m = 121 – 5k, and if m is divisible by 3, which of the following, each considered individually, COULD be true?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "m is odd",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "m is even",
+                    "isAnswer": true
+                },  
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "k is odd",
+                    "isAnswer": true
+                }
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1028,
+            "name": "Which two of the following numbers have a product that is greater than 60?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "-9",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "-7",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "6",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "8",
+                    "isAnswer": false
+                }
+               
+               
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1030,
+            "name": "Last year the P members of a partnership divided D dollars profit evenly among themselves. If N people join the partnership during the year, how much more profit in the course of the year must the partnership make for the amount of profit per partner to remain same?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "NP/D",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "ND/P",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "(N+P)/D",
+                    "isAnswer": false
+                }  ,
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "N/DP",
+                    "isAnswer": false
+                }  ,
+                {
+                    "id": 1059,
+                    "questionId": 1010,
+                    "name": "P/ND",
+                    "isAnswer": false
+                }  
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+
+    ]
+}

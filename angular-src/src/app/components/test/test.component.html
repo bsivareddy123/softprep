@@ -1,0 +1,215 @@
+<div class="row">
+<div class="container" style="background: white;
+box-shadow: 0px 0px 23px 1px darkgrey;">
+
+    <div class="shadow" style="position: relative; padding: 41px;border-bottom: 1px solid #a9a9a947;">
+       
+     <div class="col-md-8">
+           
+         
+     </div>
+    
+       
+     <div class="col-md-4 button" >
+          
+      <button class="btn" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">&laquo; Prev</button>
+           
+     <button class="btn" (click)="goTo(pager.index + 1);">Next &raquo; </button>
+     <button class="btn" (click)="Timer();">Finished &raquo; </button>
+           
+           <!-- <button class="btn btn-primary" *ngIf="config.allowBack" (click)="goTo(0);">First</button>  
+            <button class="btn btn-primary" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button> -->
+        
+        </div>
+      </div>
+        
+        
+        <div class="row">
+          <div class="col-md-4" style="padding: 20px;font-family: sans-serif;font-weight: bold">
+              <p class="text-sm-center">Section 1 of 6</p> 
+          </div>
+          <div class="col-md-4" style="padding: 20px;">
+              <p class="badge badge-info" style="font-family: sans-serif;">Question {{pager.index + 1}} of {{pager.count}}.</p>
+          </div>
+          <div class="col-md-4" style="padding: 20px;">
+            <span *ngIf="show" style="font-family:sans-serif;">
+              {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}}
+          </span> 
+          <button type="button" class="btn btn-primary" (click)="show=!show">{{show ? 'Hide' : 'Show'}}</button>
+            <span *ngIf="calc">
+                <div id="calculator">
+                    <div class="display">
+                      <div class="main">{{ display }}</div>
+                      <div class="sub">{{ subDisplay }}</div>
+                    </div>
+                    <div class="clearfix controlPanel">
+                      <div class="numbers f_l">
+                        <div>
+                          <span (click)="buildNumber('7')">7</span>
+                          <span (click)="buildNumber('8')">8</span>
+                          <span (click)="buildNumber('9')">9</span>
+                        </div>
+                        <div>
+                          <span (click)="buildNumber('4')">4</span>
+                          <span (click)="buildNumber('5')">5</span>
+                          <span (click)="buildNumber('6')">6</span>
+                        </div>
+                        <div>
+                          <span (click)="buildNumber('1')">1</span>
+                          <span (click)="buildNumber('2')">2</span>
+                          <span (click)="buildNumber('3')">3</span>
+                        </div>
+                        <div>
+                          <span (click)="buildNumber('0')">0</span>
+                          <span (click)="buildNumber('.')">.</span>
+                        </div>
+                      </div>
+                      <div class="operation f_l">
+                        <span (click)="selectOperator('/')" id="division">/</span>
+                        <span (click)="selectOperator('*')" id="multiplication">X</span>
+                        <span (click)="selectOperator('+')" id="addition">+</span>
+                        <span (click)="selectOperator('-')" id="subtraction">-</span>
+                      </div>
+                      <span id="equalTo" (click)="showResult()">=</span>
+                    </div>
+                    <div (click)="calculate()" id="calculate"></div>
+                  </div>
+          </span> 
+           <button type="button" class="btn btn-primary" class="btn btn-primary" (click)="calc=!calc">{{calc ? 'Hide Calc' : 'Show Calc'}}</button>
+          
+          </div>
+        </div>
+        
+        <div class="col-md-12">
+          
+            <button class="btn btn-primary" (click)="mode = 'quiz'">Quick Test</button>
+            <!--  <button class="btn btn-primary" (click)="mode = 'review'">Review</button>
+             <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button> -->
+
+            <button class="btn btn-primary">Exit Section</button>
+            <button class="btn btn-primary">Pause</button>
+           <button class="btn btn-primary" style="padding: 5px 10px !important">Mark<input type="checkbox"></button> 
+           <button class="btn btn-primary" (click)="mode = 'review'">Review</button>
+            <button class="btn btn-primary" (click)="onSubmit();">Submit Test</button>
+        
+        </div>
+        
+        
+        
+        
+        <div class="row">
+          
+            
+          </div>
+          <div id="quiz">
+           
+            <hr />
+          
+            <div *ngIf="mode=='quiz' && quiz" style="height: 300px;background: white;">
+                <div *ngFor="let question of filteredQuestions;">
+                  
+                    <div class="col-md-12">
+                        <div class="col-md-6" style="height: 242px;
+                        overflow-y: auto;
+                        font-family: sans-serif;
+                        font-size: 14px;
+                        border-right: 2px dotted cornflowerblue;
+                        position: relative;
+                        top: 17px;">
+                            <div class="col-md-10">
+                            <p>{{pager.index + 1}} .<span [innerHTML]="question.title"></span>
+                                <span [innerHTML]="question.name" style="text-align: justify;
+                                 line-height: 26px;height: 100px"></span>
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div class="row text-left options">
+                            <div class="col-md-6" *ngFor="let option of question.options">
+                              <div *ngIf="question.questionTypeId == 1">
+                              <div class="option">
+                                <label class="" [attr.for]="option.id">
+                                    <div class="pract radio i-checks">
+                                        <label>
+                                           <input id="{{option.id}}" type="checkbox" name="checkbox1" class="radioS" [(ngModel)]="option.selected" (change)="onSelect(question, option);"><i></i>
+                                             {{option.name}}
+                                        </label>
+                                     </div>
+                                  
+                                </label>
+                              </div>
+                            </div>
+                            </div>
+
+
+                            <div class="col-md-6" *ngFor="let option of question.options">
+                                <div *ngIf="question.questionTypeId == 2">
+                                <div class="option">
+                                  <label class="" [attr.for]="option.id">
+                                      <div class="pract radio i-checks">
+                                          <label>
+                                             <input id="{{option.id}}" type="checkbox" name="radio" class="radioS" [(ngModel)]="option.selected" (change)="onSelect(question, option);"><i></i>
+                                               {{option.name}}
+                                          </label>
+                                       </div>
+                                    
+                                  </label>
+                                </div>
+                              </div>
+                              </div>
+
+                              <div class="col-md-6" *ngFor="let option of question.options">
+                                  <div *ngIf="question.questionTypeId == 3">
+                                    <label class="" [attr.for]="option.id">
+                                          <input id="{{option.id}}" type="text" name="text" style="height: 50px;position: relative;left: 20px;top: 20px; border: 1px solid cornflowerblue; width: 126%; border-radius: 9px;" [(ngModel)]="option.selected" (change)="onSelect(question, option);">
+                                          {{option.name}}
+                                    </label>
+                                </div>
+                                </div>
+                           
+                          </div>
+              
+                    </div>
+                  </div>
+                  
+             
+              <div class="text-sm-center">
+                
+                <!--<pagination *ngIf="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>-->
+              </div>
+            </div>
+          
+            <div class="row review" *ngIf="mode=='review'" style="padding: 45px;line-height: 30px;">
+              <div class="col-sm-4" *ngFor="let question of quiz.questions; let index = index;">
+                <div (click)="goTo(index)" class="{{ isAnswered(index) == 'Answered'? 'answered': 'not-answered' }}">{{index + 1}}. {{ isAnswered(index) }}</div>
+              </div>
+            </div>
+           <div class="result" *ngIf="mode=='result'">
+                <h2>Exam Result</h2>
+                <div *ngFor="let question of quiz.questions; let index = index">
+                  <div class="result-question">
+                    <h4 style="font-size: 14px;font-family: unset;line-height: 31px;padding-left: 26px;">{{index + 1}}. {{question.name}}</h4>
+                    <div class="row">
+                      <div class="col-md-6" *ngFor="let Option of question.options">
+                        <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
+                      </div>
+                    </div>
+                    <div class="alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div>
+                  </div>
+                </div>
+                <h4 class="alert alert-info text-sm-center">You may close this window now.</h4>
+              </div>  
+          
+           <div *ngIf="mode!='result'">
+             
+            </div> 
+          </div>
+     
+          <!-- bottom test -->
+         
+               
+</div>
+</div>
+
+       
+       

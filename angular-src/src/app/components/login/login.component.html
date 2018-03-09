@@ -1,0 +1,126 @@
+<div class="row">
+  <div class="hold-transition login-page" style="height: 637px;background-image: url('assets/images/top-slider.jpg')">
+      <div class="col-md-7 col-lg-7">
+        <div class="gtimg">
+          <div class="center">
+            <img src="../assets/images/gt_soft_prep.png" class="img-responsive center">
+          </div>
+        </div>
+       
+      </div>
+      <div class="col-md-5 col-lg-5">
+      <!--  <div class="login-box">
+  
+         
+          <div class="login-box-body">
+            <p class="login-box-msg">Sign in to start your session</p>
+  
+            <form (submit)="onLoginSubmit()">
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" [(ngModel)]="username" name="username">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" [(ngModel)]="password" name="password">
+              </div>
+              <div class="row">
+                <div class="col-xs-6 col-xs-offset-1 ">
+                  <div class="checkbox icheck">
+                    <label class="">
+                      <div class="icheckbox_square-blue" aria-checked="false" aria-disabled="false" style="position: relative;"><input type="checkbox" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> Remember Me
+                    </label>
+                  </div>
+                </div>
+               
+                <div class="col-xs-4">
+                  <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                </div>
+               
+              </div>
+            </form>
+  
+            <div class="social-auth-links text-center">
+              <p>- OR -</p>
+              <a href="#" class="btn btn-block btn-social btn-facebook btn-flat">
+                <i class="fa fa-facebook"></i> Sign in using Facebook
+              </a>
+              <a href="#" class="btn btn-block btn-social btn-google btn-flat">
+                <i class="fa fa-google-plus"></i> Sign in using Google+
+              </a>
+              <a href="#" class="btn btn-block btn-social btn-twitter btn-flat">
+                <i class="fa fa-twitter"></i> Sign in using Twitter
+              </a>
+              <a href="#" class="btn btn-block btn-social btn-linkedin btn-flat">
+                <i class="fa fa-linkedin"></i> Sign in using Linkedin
+              </a>
+            </div>
+           
+  
+            <p class="white_text">
+              <a class="text-center" (click)="onForgotClick()">I forgot my password</a>
+              <br>
+            </p>
+            <p class="white_text">
+              <a class="text-center" (click)="onSignupClick()">
+                <b>SignUp for a new account</b>
+              </a>
+            </p>
+  
+          </div>
+         
+        </div> -->
+        <div class="login-box">
+    
+          <!-- /.login-logo -->
+          <div class="login-box-body">
+            <p class="login-box-msg">Sign in to start your session</p>
+        
+            <form (submit)="onLoginSubmit()">
+              <div class="form-group has-feedback">
+                  <input type="text" class="form-control" [(ngModel)]="username" name="username" placeholder="UserName">
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+              </div>
+              <div class="form-group has-feedback">
+                    <input type="password" id="password" data-toggle="password" class="form-control" [(ngModel)]="password" name="password" placeholder="password">                
+              </div>
+              <div class="row">
+                <div class="col-xs-6 col-xs-offset-1 ">
+                    <div class="checkbox icheck">
+                        <label>
+                          <input type="checkbox"><span class="white_text"><a href="#"> I agree to the terms</a></span>
+                        </label>
+                      </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-xs-4">
+                  <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                </div>
+                <!-- /.col -->
+              </div>
+            </form>
+        
+            <div class="social-auth-links text-center">
+              <p>- OR -</p>
+              <a class="btn btn-block btn-social btn-facebook btn-flat" (click)="fbLogin()"><i class="fa fa-facebook"></i> Sign in using
+                Facebook</a>
+              <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using
+                Google+</a>
+              <a href="#" class="btn btn-block btn-social btn-twitter btn-flat"><i class="fa fa-twitter"></i> Sign in using
+                Twitter</a>
+              <a href="#" class="btn btn-block btn-social btn-linkedin btn-flat"><i class="fa fa-linkedin"></i> Sign in using
+                Linkedin</a>
+            </div>
+            <!-- /.social-auth-links -->
+        
+            <p class="white_text"><a routerLink="/forgot">I forgot my password</a><br></p>
+            <p class="white_text"><a routerLink="/register" class="text-center"><b>SignUp for a new account</b></a></p>
+        
+          </div>
+          <!-- /.login-box-body -->
+        </div>
+      </div>
+    </div>  
+</div>
+
+  
